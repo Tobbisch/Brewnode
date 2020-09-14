@@ -1,0 +1,256 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Analog_ADC:ADS1115IDGS U?
+U 1 1 5F671F24
+P 6000 3000
+F 0 "U?" H 6000 3681 50  0000 C CNN
+F 1 "ADS1115IDGS" H 6000 3590 50  0000 C CNN
+F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 6000 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1113.pdf" H 5950 2100 50  0001 C CNN
+	1    6000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F672F0A
+P 5700 2100
+F 0 "#PWR?" H 5700 1950 50  0001 C CNN
+F 1 "+5V" H 5715 2273 50  0000 C CNN
+F 2 "" H 5700 2100 50  0001 C CNN
+F 3 "" H 5700 2100 50  0001 C CNN
+	1    5700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F6733C6
+P 5700 3500
+F 0 "#PWR?" H 5700 3250 50  0001 C CNN
+F 1 "GND" H 5705 3327 50  0000 C CNN
+F 2 "" H 5700 3500 50  0001 C CNN
+F 3 "" H 5700 3500 50  0001 C CNN
+	1    5700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5F67AE54
+P 8950 2150
+F 0 "J?" H 9030 2192 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 9030 2101 50  0000 L CNN
+F 2 "" H 8950 2150 50  0001 C CNN
+F 3 "~" H 8950 2150 50  0001 C CNN
+	1    8950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5F67CFB3
+P 8950 2650
+F 0 "J?" H 9030 2692 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 9030 2601 50  0000 L CNN
+F 2 "" H 8950 2650 50  0001 C CNN
+F 3 "~" H 8950 2650 50  0001 C CNN
+	1    8950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5F67D7CC
+P 8950 3150
+F 0 "J?" H 9030 3192 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 9030 3101 50  0000 L CNN
+F 2 "" H 8950 3150 50  0001 C CNN
+F 3 "~" H 8950 3150 50  0001 C CNN
+	1    8950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5F67DB58
+P 8950 3650
+F 0 "J?" H 9030 3692 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 9030 3601 50  0000 L CNN
+F 2 "" H 8950 3650 50  0001 C CNN
+F 3 "~" H 8950 3650 50  0001 C CNN
+	1    8950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F68337D
+P 8500 1600
+F 0 "#PWR?" H 8500 1450 50  0001 C CNN
+F 1 "+5V" H 8515 1773 50  0000 C CNN
+F 2 "" H 8500 1600 50  0001 C CNN
+F 3 "" H 8500 1600 50  0001 C CNN
+	1    8500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F683A9D
+P 8400 4000
+F 0 "#PWR?" H 8400 3750 50  0001 C CNN
+F 1 "GND" H 8405 3827 50  0000 C CNN
+F 2 "" H 8400 4000 50  0001 C CNN
+F 3 "" H 8400 4000 50  0001 C CNN
+	1    8400 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2050 8500 2050
+Wire Wire Line
+	8500 2050 8500 1600
+Wire Wire Line
+	8750 2550 8500 2550
+Wire Wire Line
+	8500 2550 8500 2050
+Connection ~ 8500 2050
+Wire Wire Line
+	8750 3050 8500 3050
+Wire Wire Line
+	8500 3050 8500 2550
+Connection ~ 8500 2550
+Wire Wire Line
+	8750 3550 8500 3550
+Wire Wire Line
+	8500 3550 8500 3050
+Connection ~ 8500 3050
+Wire Wire Line
+	8400 4000 8400 3750
+Wire Wire Line
+	8400 3750 8750 3750
+Wire Wire Line
+	8750 3250 8400 3250
+Wire Wire Line
+	8400 3250 8400 3750
+Connection ~ 8400 3750
+Wire Wire Line
+	8750 2750 8400 2750
+Wire Wire Line
+	8400 2750 8400 3250
+Connection ~ 8400 3250
+Wire Wire Line
+	8750 2250 8400 2250
+Wire Wire Line
+	8400 2250 8400 2750
+Connection ~ 8400 2750
+Wire Wire Line
+	6000 2500 6000 2450
+Wire Wire Line
+	6000 2450 5700 2450
+Wire Wire Line
+	5700 2450 5700 2100
+Wire Wire Line
+	5700 3500 5700 3450
+Wire Wire Line
+	5700 3450 6000 3450
+Wire Wire Line
+	6000 3450 6000 3400
+Text HLabel 6600 3000 2    50   BiDi ~ 0
+5V_ADC_SCL
+Text HLabel 6600 3100 2    50   BiDi ~ 0
+5V_ADC_SDA
+Wire Wire Line
+	6400 3200 6500 3200
+Wire Wire Line
+	6500 3200 6500 3450
+Wire Wire Line
+	6500 3450 6000 3450
+Connection ~ 6000 3450
+Wire Wire Line
+	6400 3000 6600 3000
+Wire Wire Line
+	6400 3100 6600 3100
+Text HLabel 6600 2800 2    50   BiDi ~ 0
+5V_ADC_RDY
+Wire Wire Line
+	6400 2800 6600 2800
+Wire Wire Line
+	8750 2150 7850 2150
+Wire Wire Line
+	8750 2650 7850 2650
+Wire Wire Line
+	8750 3150 7850 3150
+Wire Wire Line
+	8750 3650 7850 3650
+$Comp
+L Device:C C?
+U 1 1 5F692BD5
+P 4550 2850
+F 0 "C?" H 4665 2896 50  0000 L CNN
+F 1 "C" H 4665 2805 50  0000 L CNN
+F 2 "" H 4588 2700 50  0001 C CNN
+F 3 "~" H 4550 2850 50  0001 C CNN
+	1    4550 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2700 4550 2450
+Wire Wire Line
+	4550 2450 5700 2450
+Connection ~ 5700 2450
+Wire Wire Line
+	4550 3000 4550 3450
+Wire Wire Line
+	4550 3450 5700 3450
+Connection ~ 5700 3450
+Wire Wire Line
+	5600 3000 5200 3000
+Wire Wire Line
+	5200 2900 5600 2900
+Wire Wire Line
+	5600 3100 5200 3100
+Wire Wire Line
+	5600 3200 5200 3200
+Text Label 5200 2900 0    50   ~ 0
+AIN0
+Text Label 5200 3000 0    50   ~ 0
+AIN1
+Text Label 5200 3100 0    50   ~ 0
+AIN2
+Text Label 5200 3200 0    50   ~ 0
+AIN3
+Text Label 7850 2150 0    50   ~ 0
+AIN0
+Text Label 7850 2650 0    50   ~ 0
+AIN1
+Text Label 7850 3150 0    50   ~ 0
+AIN2
+Text Label 7850 3650 0    50   ~ 0
+AIN3
+$Comp
+L Device:CP C?
+U 1 1 5F69915C
+P 7500 2850
+F 0 "C?" H 7618 2896 50  0000 L CNN
+F 1 "CP" H 7618 2805 50  0000 L CNN
+F 2 "" H 7538 2700 50  0001 C CNN
+F 3 "~" H 7500 2850 50  0001 C CNN
+	1    7500 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2700 7500 2050
+Wire Wire Line
+	7500 2050 8500 2050
+Wire Wire Line
+	7500 3000 7500 3750
+Wire Wire Line
+	7500 3750 8400 3750
+$EndSCHEMATC

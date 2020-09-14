@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -133,4 +133,23 @@ Wire Wire Line
 	6850 3600 8000 3600
 Wire Wire Line
 	6850 4100 8000 4100
+$Comp
+L Device:CP C?
+U 1 1 5F69BB32
+P 5800 3350
+F 0 "C?" H 5918 3396 50  0000 L CNN
+F 1 "CP" H 5918 3305 50  0000 L CNN
+F 2 "" H 5838 3200 50  0001 C CNN
+F 3 "~" H 5800 3350 50  0001 C CNN
+	1    5800 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3200 5800 2500
+Wire Wire Line
+	5800 2500 7650 2500
+Wire Wire Line
+	5800 3500 5800 4200
+Wire Wire Line
+	5800 4200 7500 4200
 $EndSCHEMATC
