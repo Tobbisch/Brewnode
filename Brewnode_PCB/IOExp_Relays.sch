@@ -1,0 +1,459 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 "IOExp_Relays"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Relay:SANYOU_SRD_Form_C K?
+U 1 1 5F643939
+P 4050 1700
+F 0 "K?" H 4480 1746 50  0000 L CNN
+F 1 "SANYOU_SRD_Form_C" H 4480 1655 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 4500 1650 50  0001 L CNN
+F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 4050 1700 50  0001 C CNN
+	1    4050 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5F64B72A
+P 4900 2250
+F 0 "J?" H 4980 2292 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 4980 2201 50  0000 L CNN
+F 2 "" H 4900 2250 50  0001 C CNN
+F 3 "~" H 4900 2250 50  0001 C CNN
+	1    4900 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2000 4250 2250
+Wire Wire Line
+	4250 2250 4700 2250
+Wire Wire Line
+	4350 1400 4350 1300
+Wire Wire Line
+	4350 1300 4500 1300
+Wire Wire Line
+	4500 1300 4500 2350
+Wire Wire Line
+	4500 2350 4700 2350
+Wire Wire Line
+	4700 2150 4600 2150
+Wire Wire Line
+	4600 2150 4600 1250
+Wire Wire Line
+	4600 1250 4150 1250
+Wire Wire Line
+	4150 1250 4150 1400
+$Comp
+L power:+5V #PWR?
+U 1 1 5F64C92B
+P 3850 1000
+F 0 "#PWR?" H 3850 850 50  0001 C CNN
+F 1 "+5V" H 3865 1173 50  0000 C CNN
+F 2 "" H 3850 1000 50  0001 C CNN
+F 3 "" H 3850 1000 50  0001 C CNN
+	1    3850 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1000 3850 1300
+$Comp
+L Device:D D?
+U 1 1 5F64D292
+P 3250 1700
+F 0 "D?" V 3204 1780 50  0000 L CNN
+F 1 "D" V 3295 1780 50  0000 L CNN
+F 2 "" H 3250 1700 50  0001 C CNN
+F 3 "~" H 3250 1700 50  0001 C CNN
+	1    3250 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 1550 3250 1300
+Wire Wire Line
+	3250 1300 3850 1300
+Connection ~ 3850 1300
+Wire Wire Line
+	3850 1300 3850 1400
+$Comp
+L Transistor_FET:IRLIZ44N Q?
+U 1 1 5F64DE63
+P 3750 2400
+F 0 "Q?" H 3955 2446 50  0000 L CNN
+F 1 "IRLIZ44N" H 3955 2355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 4000 2325 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irliz44n.pdf" H 3750 2400 50  0001 L CNN
+	1    3750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F64EBA7
+P 3850 2900
+F 0 "#PWR?" H 3850 2650 50  0001 C CNN
+F 1 "GND" H 3855 2727 50  0000 C CNN
+F 2 "" H 3850 2900 50  0001 C CNN
+F 3 "" H 3850 2900 50  0001 C CNN
+	1    3850 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2200 3850 2100
+Wire Wire Line
+	3250 1850 3250 2100
+Wire Wire Line
+	3250 2100 3850 2100
+Connection ~ 3850 2100
+Wire Wire Line
+	3850 2100 3850 2000
+Wire Wire Line
+	3850 2600 3850 2900
+Text HLabel 3000 2400 0    50   BiDi ~ 0
+Output_1
+$Comp
+L Relay:SANYOU_SRD_Form_C K?
+U 1 1 5F653D93
+P 7700 1700
+F 0 "K?" H 8130 1746 50  0000 L CNN
+F 1 "SANYOU_SRD_Form_C" H 8130 1655 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 8150 1650 50  0001 L CNN
+F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 7700 1700 50  0001 C CNN
+	1    7700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5F653D99
+P 8550 2250
+F 0 "J?" H 8630 2292 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 8630 2201 50  0000 L CNN
+F 2 "" H 8550 2250 50  0001 C CNN
+F 3 "~" H 8550 2250 50  0001 C CNN
+	1    8550 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2000 7900 2250
+Wire Wire Line
+	7900 2250 8350 2250
+Wire Wire Line
+	8000 1400 8000 1300
+Wire Wire Line
+	8000 1300 8150 1300
+Wire Wire Line
+	8150 1300 8150 2350
+Wire Wire Line
+	8150 2350 8350 2350
+Wire Wire Line
+	8350 2150 8250 2150
+Wire Wire Line
+	8250 2150 8250 1250
+Wire Wire Line
+	8250 1250 7800 1250
+Wire Wire Line
+	7800 1250 7800 1400
+$Comp
+L power:+5V #PWR?
+U 1 1 5F653DA9
+P 7500 1000
+F 0 "#PWR?" H 7500 850 50  0001 C CNN
+F 1 "+5V" H 7515 1173 50  0000 C CNN
+F 2 "" H 7500 1000 50  0001 C CNN
+F 3 "" H 7500 1000 50  0001 C CNN
+	1    7500 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 1000 7500 1300
+$Comp
+L Device:D D?
+U 1 1 5F653DB0
+P 6900 1700
+F 0 "D?" V 6854 1780 50  0000 L CNN
+F 1 "D" V 6945 1780 50  0000 L CNN
+F 2 "" H 6900 1700 50  0001 C CNN
+F 3 "~" H 6900 1700 50  0001 C CNN
+	1    6900 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 1550 6900 1300
+Wire Wire Line
+	6900 1300 7500 1300
+Connection ~ 7500 1300
+Wire Wire Line
+	7500 1300 7500 1400
+$Comp
+L Transistor_FET:IRLIZ44N Q?
+U 1 1 5F653DBA
+P 7400 2400
+F 0 "Q?" H 7605 2446 50  0000 L CNN
+F 1 "IRLIZ44N" H 7605 2355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 7650 2325 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irliz44n.pdf" H 7400 2400 50  0001 L CNN
+	1    7400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F653DC0
+P 7500 2900
+F 0 "#PWR?" H 7500 2650 50  0001 C CNN
+F 1 "GND" H 7505 2727 50  0000 C CNN
+F 2 "" H 7500 2900 50  0001 C CNN
+F 3 "" H 7500 2900 50  0001 C CNN
+	1    7500 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2200 7500 2100
+Wire Wire Line
+	6900 1850 6900 2100
+Wire Wire Line
+	6900 2100 7500 2100
+Connection ~ 7500 2100
+Wire Wire Line
+	7500 2100 7500 2000
+Wire Wire Line
+	7500 2600 7500 2900
+Text HLabel 6650 2400 0    50   BiDi ~ 0
+Output_1
+$Comp
+L Relay:SANYOU_SRD_Form_C K?
+U 1 1 5F65E754
+P 4050 4600
+F 0 "K?" H 4480 4646 50  0000 L CNN
+F 1 "SANYOU_SRD_Form_C" H 4480 4555 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 4500 4550 50  0001 L CNN
+F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 4050 4600 50  0001 C CNN
+	1    4050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5F65E75A
+P 4900 5150
+F 0 "J?" H 4980 5192 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 4980 5101 50  0000 L CNN
+F 2 "" H 4900 5150 50  0001 C CNN
+F 3 "~" H 4900 5150 50  0001 C CNN
+	1    4900 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4900 4250 5150
+Wire Wire Line
+	4250 5150 4700 5150
+Wire Wire Line
+	4350 4300 4350 4200
+Wire Wire Line
+	4350 4200 4500 4200
+Wire Wire Line
+	4500 4200 4500 5250
+Wire Wire Line
+	4500 5250 4700 5250
+Wire Wire Line
+	4700 5050 4600 5050
+Wire Wire Line
+	4600 5050 4600 4150
+Wire Wire Line
+	4600 4150 4150 4150
+Wire Wire Line
+	4150 4150 4150 4300
+$Comp
+L power:+5V #PWR?
+U 1 1 5F65E76A
+P 3850 3900
+F 0 "#PWR?" H 3850 3750 50  0001 C CNN
+F 1 "+5V" H 3865 4073 50  0000 C CNN
+F 2 "" H 3850 3900 50  0001 C CNN
+F 3 "" H 3850 3900 50  0001 C CNN
+	1    3850 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3900 3850 4200
+$Comp
+L Device:D D?
+U 1 1 5F65E771
+P 3250 4600
+F 0 "D?" V 3204 4680 50  0000 L CNN
+F 1 "D" V 3295 4680 50  0000 L CNN
+F 2 "" H 3250 4600 50  0001 C CNN
+F 3 "~" H 3250 4600 50  0001 C CNN
+	1    3250 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 4450 3250 4200
+Wire Wire Line
+	3250 4200 3850 4200
+Connection ~ 3850 4200
+Wire Wire Line
+	3850 4200 3850 4300
+$Comp
+L Transistor_FET:IRLIZ44N Q?
+U 1 1 5F65E77B
+P 3750 5300
+F 0 "Q?" H 3955 5346 50  0000 L CNN
+F 1 "IRLIZ44N" H 3955 5255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 4000 5225 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irliz44n.pdf" H 3750 5300 50  0001 L CNN
+	1    3750 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F65E781
+P 3850 5800
+F 0 "#PWR?" H 3850 5550 50  0001 C CNN
+F 1 "GND" H 3855 5627 50  0000 C CNN
+F 2 "" H 3850 5800 50  0001 C CNN
+F 3 "" H 3850 5800 50  0001 C CNN
+	1    3850 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 5100 3850 5000
+Wire Wire Line
+	3250 4750 3250 5000
+Wire Wire Line
+	3250 5000 3850 5000
+Connection ~ 3850 5000
+Wire Wire Line
+	3850 5000 3850 4900
+Wire Wire Line
+	3850 5500 3850 5800
+Text HLabel 3150 5300 0    50   BiDi ~ 0
+Output_1
+$Comp
+L Relay:SANYOU_SRD_Form_C K?
+U 1 1 5F661E90
+P 7700 4600
+F 0 "K?" H 8130 4646 50  0000 L CNN
+F 1 "SANYOU_SRD_Form_C" H 8130 4555 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 8150 4550 50  0001 L CNN
+F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 7700 4600 50  0001 C CNN
+	1    7700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5F661E96
+P 8550 5150
+F 0 "J?" H 8630 5192 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 8630 5101 50  0000 L CNN
+F 2 "" H 8550 5150 50  0001 C CNN
+F 3 "~" H 8550 5150 50  0001 C CNN
+	1    8550 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4900 7900 5150
+Wire Wire Line
+	7900 5150 8350 5150
+Wire Wire Line
+	8000 4300 8000 4200
+Wire Wire Line
+	8000 4200 8150 4200
+Wire Wire Line
+	8150 4200 8150 5250
+Wire Wire Line
+	8150 5250 8350 5250
+Wire Wire Line
+	8350 5050 8250 5050
+Wire Wire Line
+	8250 5050 8250 4150
+Wire Wire Line
+	8250 4150 7800 4150
+Wire Wire Line
+	7800 4150 7800 4300
+$Comp
+L power:+5V #PWR?
+U 1 1 5F661EA6
+P 7500 3900
+F 0 "#PWR?" H 7500 3750 50  0001 C CNN
+F 1 "+5V" H 7515 4073 50  0000 C CNN
+F 2 "" H 7500 3900 50  0001 C CNN
+F 3 "" H 7500 3900 50  0001 C CNN
+	1    7500 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3900 7500 4200
+$Comp
+L Device:D D?
+U 1 1 5F661EAD
+P 6900 4600
+F 0 "D?" V 6854 4680 50  0000 L CNN
+F 1 "D" V 6945 4680 50  0000 L CNN
+F 2 "" H 6900 4600 50  0001 C CNN
+F 3 "~" H 6900 4600 50  0001 C CNN
+	1    6900 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 4450 6900 4200
+Wire Wire Line
+	6900 4200 7500 4200
+Connection ~ 7500 4200
+Wire Wire Line
+	7500 4200 7500 4300
+$Comp
+L Transistor_FET:IRLIZ44N Q?
+U 1 1 5F661EB7
+P 7400 5300
+F 0 "Q?" H 7605 5346 50  0000 L CNN
+F 1 "IRLIZ44N" H 7605 5255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 7650 5225 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irliz44n.pdf" H 7400 5300 50  0001 L CNN
+	1    7400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F661EBD
+P 7500 5800
+F 0 "#PWR?" H 7500 5550 50  0001 C CNN
+F 1 "GND" H 7505 5627 50  0000 C CNN
+F 2 "" H 7500 5800 50  0001 C CNN
+F 3 "" H 7500 5800 50  0001 C CNN
+	1    7500 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 5100 7500 5000
+Wire Wire Line
+	6900 4750 6900 5000
+Wire Wire Line
+	6900 5000 7500 5000
+Connection ~ 7500 5000
+Wire Wire Line
+	7500 5000 7500 4900
+Wire Wire Line
+	7500 5500 7500 5800
+Text HLabel 6900 5300 0    50   BiDi ~ 0
+Output_1
+$Comp
+L Device:R R?
+U 1 1 5F666958
+P 7050 5550
+F 0 "R?" H 7120 5596 50  0000 L CNN
+F 1 "R" H 7120 5505 50  0000 L CNN
+F 2 "" V 6980 5550 50  0001 C CNN
+F 3 "~" H 7050 5550 50  0001 C CNN
+	1    7050 5550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
