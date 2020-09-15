@@ -1,0 +1,360 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 7
+Title "BrewnodeV1"
+Date "2020-09-15"
+Rev "1.0"
+Comp "Halldin"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 2500 2500 0    50   BiDi ~ 0
+LV_1
+Text HLabel 2500 3500 0    50   BiDi ~ 0
+LV_2
+Text HLabel 2500 4500 0    50   BiDi ~ 0
+LV_3
+Text HLabel 2500 5500 0    50   BiDi ~ 0
+LV_4
+Text HLabel 6000 2500 2    50   BiDi ~ 0
+HV_1
+Text HLabel 6000 3500 2    50   BiDi ~ 0
+HV_2
+Text HLabel 6000 4500 2    50   BiDi ~ 0
+HV_3
+Text HLabel 6000 5500 2    50   BiDi ~ 0
+HV_4
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5F616C31
+P 4000 2400
+F 0 "Q?" V 4249 2400 50  0000 C CNN
+F 1 "BSS138" V 4340 2400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4200 2325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4000 2400 50  0001 L CNN
+	1    4000 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5F61F40A
+P 4000 3400
+F 0 "Q?" V 4249 3400 50  0000 C CNN
+F 1 "BSS138" V 4340 3400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4200 3325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4000 3400 50  0001 L CNN
+	1    4000 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5F6211B8
+P 4000 4400
+F 0 "Q?" V 4249 4400 50  0000 C CNN
+F 1 "BSS138" V 4340 4400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4200 4325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4000 4400 50  0001 L CNN
+	1    4000 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5F622813
+P 4000 5400
+F 0 "Q?" V 4249 5400 50  0000 C CNN
+F 1 "BSS138" V 4340 5400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4200 5325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4000 5400 50  0001 L CNN
+	1    4000 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F628659
+P 3000 2350
+F 0 "R?" H 3070 2396 50  0000 L CNN
+F 1 "10K" H 3070 2305 50  0000 L CNN
+F 2 "" V 2930 2350 50  0001 C CNN
+F 3 "~" H 3000 2350 50  0001 C CNN
+	1    3000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F62A38F
+P 3000 3350
+F 0 "R?" H 3070 3396 50  0000 L CNN
+F 1 "10K" H 3070 3305 50  0000 L CNN
+F 2 "" V 2930 3350 50  0001 C CNN
+F 3 "~" H 3000 3350 50  0001 C CNN
+	1    3000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F62D0C7
+P 3000 5350
+F 0 "R?" H 3070 5396 50  0000 L CNN
+F 1 "10K" H 3070 5305 50  0000 L CNN
+F 2 "" V 2930 5350 50  0001 C CNN
+F 3 "~" H 3000 5350 50  0001 C CNN
+	1    3000 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F62D0CD
+P 5000 5350
+F 0 "R?" H 5070 5396 50  0000 L CNN
+F 1 "10K" H 5070 5305 50  0000 L CNN
+F 2 "" V 4930 5350 50  0001 C CNN
+F 3 "~" H 5000 5350 50  0001 C CNN
+	1    5000 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F62DDE3
+P 3000 4350
+F 0 "R?" H 3070 4396 50  0000 L CNN
+F 1 "10K" H 3070 4305 50  0000 L CNN
+F 2 "" V 2930 4350 50  0001 C CNN
+F 3 "~" H 3000 4350 50  0001 C CNN
+	1    3000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F62DDE9
+P 5000 4350
+F 0 "R?" H 5070 4396 50  0000 L CNN
+F 1 "10K" H 5070 4305 50  0000 L CNN
+F 2 "" V 4930 4350 50  0001 C CNN
+F 3 "~" H 5000 4350 50  0001 C CNN
+	1    5000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F62E36B
+P 5000 2350
+F 0 "R?" H 5070 2396 50  0000 L CNN
+F 1 "10K" H 5070 2305 50  0000 L CNN
+F 2 "" V 4930 2350 50  0001 C CNN
+F 3 "~" H 5000 2350 50  0001 C CNN
+	1    5000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F62E371
+P 5000 3350
+F 0 "R?" H 5070 3396 50  0000 L CNN
+F 1 "10K" H 5070 3305 50  0000 L CNN
+F 2 "" V 4930 3350 50  0001 C CNN
+F 3 "~" H 5000 3350 50  0001 C CNN
+	1    5000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F653492
+P 4000 2100
+F 0 "#PWR?" H 4000 1950 50  0001 C CNN
+F 1 "+3V3" H 4015 2273 50  0000 C CNN
+F 2 "" H 4000 2100 50  0001 C CNN
+F 3 "" H 4000 2100 50  0001 C CNN
+	1    4000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F6546A0
+P 5000 2100
+F 0 "#PWR?" H 5000 1950 50  0001 C CNN
+F 1 "+5V" H 5015 2273 50  0000 C CNN
+F 2 "" H 5000 2100 50  0001 C CNN
+F 3 "" H 5000 2100 50  0001 C CNN
+	1    5000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F6560FA
+P 4000 3100
+F 0 "#PWR?" H 4000 2950 50  0001 C CNN
+F 1 "+3V3" H 4015 3273 50  0000 C CNN
+F 2 "" H 4000 3100 50  0001 C CNN
+F 3 "" H 4000 3100 50  0001 C CNN
+	1    4000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F656D5E
+P 3000 2100
+F 0 "#PWR?" H 3000 1950 50  0001 C CNN
+F 1 "+3V3" H 3015 2273 50  0000 C CNN
+F 2 "" H 3000 2100 50  0001 C CNN
+F 3 "" H 3000 2100 50  0001 C CNN
+	1    3000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F657130
+P 3000 3100
+F 0 "#PWR?" H 3000 2950 50  0001 C CNN
+F 1 "+3V3" H 3015 3273 50  0000 C CNN
+F 2 "" H 3000 3100 50  0001 C CNN
+F 3 "" H 3000 3100 50  0001 C CNN
+	1    3000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F65A9C9
+P 4000 4100
+F 0 "#PWR?" H 4000 3950 50  0001 C CNN
+F 1 "+3V3" H 4015 4273 50  0000 C CNN
+F 2 "" H 4000 4100 50  0001 C CNN
+F 3 "" H 4000 4100 50  0001 C CNN
+	1    4000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F65AB88
+P 3000 4100
+F 0 "#PWR?" H 3000 3950 50  0001 C CNN
+F 1 "+3V3" H 3015 4273 50  0000 C CNN
+F 2 "" H 3000 4100 50  0001 C CNN
+F 3 "" H 3000 4100 50  0001 C CNN
+	1    3000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F65DC0D
+P 3000 5100
+F 0 "#PWR?" H 3000 4950 50  0001 C CNN
+F 1 "+3V3" H 3015 5273 50  0000 C CNN
+F 2 "" H 3000 5100 50  0001 C CNN
+F 3 "" H 3000 5100 50  0001 C CNN
+	1    3000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F65DF34
+P 4000 5100
+F 0 "#PWR?" H 4000 4950 50  0001 C CNN
+F 1 "+3V3" H 4015 5273 50  0000 C CNN
+F 2 "" H 4000 5100 50  0001 C CNN
+F 3 "" H 4000 5100 50  0001 C CNN
+	1    4000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F66543D
+P 5000 3100
+F 0 "#PWR?" H 5000 2950 50  0001 C CNN
+F 1 "+5V" H 5015 3273 50  0000 C CNN
+F 2 "" H 5000 3100 50  0001 C CNN
+F 3 "" H 5000 3100 50  0001 C CNN
+	1    5000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F6656D7
+P 5000 4100
+F 0 "#PWR?" H 5000 3950 50  0001 C CNN
+F 1 "+5V" H 5015 4273 50  0000 C CNN
+F 2 "" H 5000 4100 50  0001 C CNN
+F 3 "" H 5000 4100 50  0001 C CNN
+	1    5000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F66583B
+P 5000 5100
+F 0 "#PWR?" H 5000 4950 50  0001 C CNN
+F 1 "+5V" H 5015 5273 50  0000 C CNN
+F 2 "" H 5000 5100 50  0001 C CNN
+F 3 "" H 5000 5100 50  0001 C CNN
+	1    5000 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2500 3000 2500
+Wire Wire Line
+	3000 2500 3800 2500
+Connection ~ 3000 2500
+Wire Wire Line
+	3000 2200 3000 2100
+Wire Wire Line
+	4000 2200 4000 2100
+Wire Wire Line
+	4200 2500 5000 2500
+Wire Wire Line
+	5000 2500 6000 2500
+Connection ~ 5000 2500
+Wire Wire Line
+	5000 2200 5000 2100
+Wire Wire Line
+	2500 3500 3000 3500
+Wire Wire Line
+	3000 3500 3800 3500
+Connection ~ 3000 3500
+Wire Wire Line
+	4000 3200 4000 3100
+Wire Wire Line
+	3000 3200 3000 3100
+Wire Wire Line
+	4200 3500 5000 3500
+Wire Wire Line
+	5000 3200 5000 3100
+Wire Wire Line
+	5000 3500 6000 3500
+Connection ~ 5000 3500
+Wire Wire Line
+	2500 4500 3000 4500
+Connection ~ 3000 4500
+Wire Wire Line
+	3000 4500 3800 4500
+Wire Wire Line
+	3000 4200 3000 4100
+Wire Wire Line
+	4000 4100 4000 4200
+Wire Wire Line
+	4200 4500 5000 4500
+Wire Wire Line
+	5000 4500 6000 4500
+Connection ~ 5000 4500
+Wire Wire Line
+	5000 4200 5000 4100
+Wire Wire Line
+	2500 5500 3000 5500
+Wire Wire Line
+	3800 5500 3000 5500
+Connection ~ 3000 5500
+Wire Wire Line
+	3000 5200 3000 5100
+Wire Wire Line
+	4000 5100 4000 5200
+Wire Wire Line
+	4200 5500 5000 5500
+Connection ~ 5000 5500
+Wire Wire Line
+	5000 5500 6000 5500
+Wire Wire Line
+	5000 5200 5000 5100
+$EndSCHEMATC
