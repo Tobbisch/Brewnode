@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "BrewnodeV1"
+Date "2020-09-15"
+Rev "1.0"
+Comp "Halldin"
 Comment1 "IOExp_Inputs"
 Comment2 ""
 Comment3 ""

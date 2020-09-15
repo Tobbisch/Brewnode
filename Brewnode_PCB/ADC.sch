@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "BrewnodeV1"
+Date "2020-09-15"
+Rev "1.0"
+Comp "Halldin"
+Comment1 "ADC"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -104,12 +104,12 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F683A9D
-P 8400 4000
-F 0 "#PWR?" H 8400 3750 50  0001 C CNN
-F 1 "GND" H 8405 3827 50  0000 C CNN
-F 2 "" H 8400 4000 50  0001 C CNN
-F 3 "" H 8400 4000 50  0001 C CNN
-	1    8400 4000
+P 8400 3900
+F 0 "#PWR?" H 8400 3650 50  0001 C CNN
+F 1 "GND" H 8405 3727 50  0000 C CNN
+F 2 "" H 8400 3900 50  0001 C CNN
+F 3 "" H 8400 3900 50  0001 C CNN
+	1    8400 3900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -132,7 +132,7 @@ Wire Wire Line
 	8500 3550 8500 3050
 Connection ~ 8500 3050
 Wire Wire Line
-	8400 4000 8400 3750
+	8400 3900 8400 3750
 Wire Wire Line
 	8400 3750 8750 3750
 Wire Wire Line
@@ -181,14 +181,6 @@ Text HLabel 6600 2800 2    50   BiDi ~ 0
 5V_ADC_RDY
 Wire Wire Line
 	6400 2800 6600 2800
-Wire Wire Line
-	8750 2150 7850 2150
-Wire Wire Line
-	8750 2650 7850 2650
-Wire Wire Line
-	8750 3150 7850 3150
-Wire Wire Line
-	8750 3650 7850 3650
 $Comp
 L Device:C C?
 U 1 1 5F692BD5
@@ -226,14 +218,6 @@ Text Label 5200 3100 0    50   ~ 0
 AIN2
 Text Label 5200 3200 0    50   ~ 0
 AIN3
-Text Label 7850 2150 0    50   ~ 0
-AIN0
-Text Label 7850 2650 0    50   ~ 0
-AIN1
-Text Label 7850 3150 0    50   ~ 0
-AIN2
-Text Label 7850 3650 0    50   ~ 0
-AIN3
 $Comp
 L Device:CP C?
 U 1 1 5F69915C
@@ -253,4 +237,412 @@ Wire Wire Line
 	7500 3000 7500 3750
 Wire Wire Line
 	7500 3750 8400 3750
+Wire Wire Line
+	8750 2150 8000 2150
+Wire Wire Line
+	8750 2650 8000 2650
+Wire Wire Line
+	8750 3150 8000 3150
+Wire Wire Line
+	8750 3650 8000 3650
+Text Label 8000 2150 0    50   ~ 0
+IN_AIN0
+Text Label 8000 2650 0    50   ~ 0
+IN_AIN1
+Text Label 8000 3150 0    50   ~ 0
+IN_AIN2
+Text Label 8000 3650 0    50   ~ 0
+IN_AIN3
+$Comp
+L Device:R R?
+U 1 1 5F6380A2
+P 850 5600
+F 0 "R?" H 920 5646 50  0000 L CNN
+F 1 "R" H 920 5555 50  0000 L CNN
+F 2 "" V 780 5600 50  0001 C CNN
+F 3 "~" H 850 5600 50  0001 C CNN
+	1    850  5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F6380A8
+P 850 5000
+F 0 "R?" H 920 5046 50  0000 L CNN
+F 1 "R" H 920 4955 50  0000 L CNN
+F 2 "" V 780 5000 50  0001 C CNN
+F 3 "~" H 850 5000 50  0001 C CNN
+	1    850  5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  4850 850  4700
+Wire Wire Line
+	850  4700 1350 4700
+$Comp
+L power:GND #PWR?
+U 1 1 5F6380BC
+P 2000 5950
+F 0 "#PWR?" H 2000 5700 50  0001 C CNN
+F 1 "GND" H 2005 5777 50  0000 C CNN
+F 2 "" H 2000 5950 50  0001 C CNN
+F 3 "" H 2000 5950 50  0001 C CNN
+	1    2000 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5800 2000 5950
+Text Label 1650 4500 2    50   ~ 0
+IN_AIN0
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 5F64E0CE
+P 1750 5800
+F 0 "JP?" H 1750 6035 50  0000 C CNN
+F 1 "Jumper_2_Open" H 1750 5944 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1750 5800 50  0001 C CNN
+F 3 "~" H 1750 5800 50  0001 C CNN
+	1    1750 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 5F64EF25
+P 1750 5000
+F 0 "JP?" H 1750 5235 50  0000 C CNN
+F 1 "Jumper_2_Open" H 1750 5144 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1750 5000 50  0001 C CNN
+F 3 "~" H 1750 5000 50  0001 C CNN
+	1    1750 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  5150 850  5250
+Wire Wire Line
+	850  5750 850  5800
+Wire Wire Line
+	1950 5800 2000 5800
+Wire Wire Line
+	1350 4700 1350 5000
+Connection ~ 1350 4700
+Wire Wire Line
+	1350 5000 1550 5000
+Wire Wire Line
+	850  5250 2100 5250
+Wire Wire Line
+	2100 5250 2100 5000
+Connection ~ 850  5250
+Connection ~ 2100 5000
+Wire Wire Line
+	2100 5000 1950 5000
+Wire Wire Line
+	850  5250 850  5450
+Wire Wire Line
+	850  5800 1550 5800
+Wire Wire Line
+	2100 5000 2500 5000
+Wire Wire Line
+	1350 4500 1650 4500
+Wire Wire Line
+	1350 4500 1350 4700
+Text Label 2500 5000 2    50   ~ 0
+AIN0
+Text Notes 1650 5150 0    50   ~ 0
+0-5V
+Text Notes 1600 5950 0    50   ~ 0
+0-10V
+$Comp
+L Device:R R?
+U 1 1 5F6912D6
+P 2850 5600
+F 0 "R?" H 2920 5646 50  0000 L CNN
+F 1 "R" H 2920 5555 50  0000 L CNN
+F 2 "" V 2780 5600 50  0001 C CNN
+F 3 "~" H 2850 5600 50  0001 C CNN
+	1    2850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F6912DC
+P 2850 5000
+F 0 "R?" H 2920 5046 50  0000 L CNN
+F 1 "R" H 2920 4955 50  0000 L CNN
+F 2 "" V 2780 5000 50  0001 C CNN
+F 3 "~" H 2850 5000 50  0001 C CNN
+	1    2850 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4850 2850 4700
+Wire Wire Line
+	2850 4700 3350 4700
+$Comp
+L power:GND #PWR?
+U 1 1 5F6912E4
+P 4000 5950
+F 0 "#PWR?" H 4000 5700 50  0001 C CNN
+F 1 "GND" H 4005 5777 50  0000 C CNN
+F 2 "" H 4000 5950 50  0001 C CNN
+F 3 "" H 4000 5950 50  0001 C CNN
+	1    4000 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5800 4000 5950
+Text Label 3650 4500 2    50   ~ 0
+IN_AIN1
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 5F6912EC
+P 3750 5800
+F 0 "JP?" H 3750 6035 50  0000 C CNN
+F 1 "Jumper_2_Open" H 3750 5944 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3750 5800 50  0001 C CNN
+F 3 "~" H 3750 5800 50  0001 C CNN
+	1    3750 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 5F6912F2
+P 3750 5000
+F 0 "JP?" H 3750 5235 50  0000 C CNN
+F 1 "Jumper_2_Open" H 3750 5144 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3750 5000 50  0001 C CNN
+F 3 "~" H 3750 5000 50  0001 C CNN
+	1    3750 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5150 2850 5250
+Wire Wire Line
+	2850 5750 2850 5800
+Wire Wire Line
+	3950 5800 4000 5800
+Wire Wire Line
+	3350 4700 3350 5000
+Connection ~ 3350 4700
+Wire Wire Line
+	3350 5000 3550 5000
+Wire Wire Line
+	2850 5250 4100 5250
+Wire Wire Line
+	4100 5250 4100 5000
+Connection ~ 2850 5250
+Connection ~ 4100 5000
+Wire Wire Line
+	4100 5000 3950 5000
+Wire Wire Line
+	2850 5250 2850 5450
+Wire Wire Line
+	2850 5800 3550 5800
+Wire Wire Line
+	4100 5000 4500 5000
+Wire Wire Line
+	3350 4500 3650 4500
+Wire Wire Line
+	3350 4500 3350 4700
+Text Label 4500 5000 2    50   ~ 0
+AIN1
+Text Notes 3650 5150 0    50   ~ 0
+0-5V
+Text Notes 3600 5950 0    50   ~ 0
+0-10V
+$Comp
+L Device:R R?
+U 1 1 5F694267
+P 4850 5600
+F 0 "R?" H 4920 5646 50  0000 L CNN
+F 1 "R" H 4920 5555 50  0000 L CNN
+F 2 "" V 4780 5600 50  0001 C CNN
+F 3 "~" H 4850 5600 50  0001 C CNN
+	1    4850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F69426D
+P 4850 5000
+F 0 "R?" H 4920 5046 50  0000 L CNN
+F 1 "R" H 4920 4955 50  0000 L CNN
+F 2 "" V 4780 5000 50  0001 C CNN
+F 3 "~" H 4850 5000 50  0001 C CNN
+	1    4850 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4850 4850 4700
+Wire Wire Line
+	4850 4700 5350 4700
+$Comp
+L power:GND #PWR?
+U 1 1 5F694275
+P 6000 5950
+F 0 "#PWR?" H 6000 5700 50  0001 C CNN
+F 1 "GND" H 6005 5777 50  0000 C CNN
+F 2 "" H 6000 5950 50  0001 C CNN
+F 3 "" H 6000 5950 50  0001 C CNN
+	1    6000 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 5800 6000 5950
+Text Label 5650 4500 2    50   ~ 0
+IN_AIN2
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 5F69427D
+P 5750 5800
+F 0 "JP?" H 5750 6035 50  0000 C CNN
+F 1 "Jumper_2_Open" H 5750 5944 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5750 5800 50  0001 C CNN
+F 3 "~" H 5750 5800 50  0001 C CNN
+	1    5750 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 5F694283
+P 5750 5000
+F 0 "JP?" H 5750 5235 50  0000 C CNN
+F 1 "Jumper_2_Open" H 5750 5144 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5750 5000 50  0001 C CNN
+F 3 "~" H 5750 5000 50  0001 C CNN
+	1    5750 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5150 4850 5250
+Wire Wire Line
+	4850 5750 4850 5800
+Wire Wire Line
+	5950 5800 6000 5800
+Wire Wire Line
+	5350 4700 5350 5000
+Connection ~ 5350 4700
+Wire Wire Line
+	5350 5000 5550 5000
+Wire Wire Line
+	4850 5250 6100 5250
+Wire Wire Line
+	6100 5250 6100 5000
+Connection ~ 4850 5250
+Connection ~ 6100 5000
+Wire Wire Line
+	6100 5000 5950 5000
+Wire Wire Line
+	4850 5250 4850 5450
+Wire Wire Line
+	4850 5800 5550 5800
+Wire Wire Line
+	6100 5000 6500 5000
+Wire Wire Line
+	5350 4500 5650 4500
+Wire Wire Line
+	5350 4500 5350 4700
+Text Label 6500 5000 2    50   ~ 0
+AIN2
+Text Notes 5650 5150 0    50   ~ 0
+0-5V
+Text Notes 5600 5950 0    50   ~ 0
+0-10V
+$Comp
+L Device:R R?
+U 1 1 5F6C52F3
+P 6850 5600
+F 0 "R?" H 6920 5646 50  0000 L CNN
+F 1 "R" H 6920 5555 50  0000 L CNN
+F 2 "" V 6780 5600 50  0001 C CNN
+F 3 "~" H 6850 5600 50  0001 C CNN
+	1    6850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F6C52F9
+P 6850 5000
+F 0 "R?" H 6920 5046 50  0000 L CNN
+F 1 "R" H 6920 4955 50  0000 L CNN
+F 2 "" V 6780 5000 50  0001 C CNN
+F 3 "~" H 6850 5000 50  0001 C CNN
+	1    6850 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4850 6850 4700
+Wire Wire Line
+	6850 4700 7350 4700
+$Comp
+L power:GND #PWR?
+U 1 1 5F6C5301
+P 8000 5950
+F 0 "#PWR?" H 8000 5700 50  0001 C CNN
+F 1 "GND" H 8005 5777 50  0000 C CNN
+F 2 "" H 8000 5950 50  0001 C CNN
+F 3 "" H 8000 5950 50  0001 C CNN
+	1    8000 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 5800 8000 5950
+Text Label 7650 4500 2    50   ~ 0
+IN_AIN3
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 5F6C5309
+P 7750 5800
+F 0 "JP?" H 7750 6035 50  0000 C CNN
+F 1 "Jumper_2_Open" H 7750 5944 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7750 5800 50  0001 C CNN
+F 3 "~" H 7750 5800 50  0001 C CNN
+	1    7750 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 5F6C530F
+P 7750 5000
+F 0 "JP?" H 7750 5235 50  0000 C CNN
+F 1 "Jumper_2_Open" H 7750 5144 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7750 5000 50  0001 C CNN
+F 3 "~" H 7750 5000 50  0001 C CNN
+	1    7750 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 5150 6850 5250
+Wire Wire Line
+	6850 5750 6850 5800
+Wire Wire Line
+	7950 5800 8000 5800
+Wire Wire Line
+	7350 4700 7350 5000
+Connection ~ 7350 4700
+Wire Wire Line
+	7350 5000 7550 5000
+Wire Wire Line
+	6850 5250 8100 5250
+Wire Wire Line
+	8100 5250 8100 5000
+Connection ~ 6850 5250
+Connection ~ 8100 5000
+Wire Wire Line
+	8100 5000 7950 5000
+Wire Wire Line
+	6850 5250 6850 5450
+Wire Wire Line
+	6850 5800 7550 5800
+Wire Wire Line
+	8100 5000 8500 5000
+Wire Wire Line
+	7350 4500 7650 4500
+Wire Wire Line
+	7350 4500 7350 4700
+Text Label 8500 5000 2    50   ~ 0
+AIN3
+Text Notes 7650 5150 0    50   ~ 0
+0-5V
+Text Notes 7600 5950 0    50   ~ 0
+0-10V
 $EndSCHEMATC
