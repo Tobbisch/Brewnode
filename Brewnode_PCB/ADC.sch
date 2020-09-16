@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 8
 Title "BrewnodeV1"
-Date "2020-09-15"
+Date "2020-09-16"
 Rev "1.0"
 Comp "Halldin"
 Comment1 "ADC"
