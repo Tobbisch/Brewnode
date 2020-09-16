@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 8
 Title "BrewnodeV1"
-Date "2020-09-15"
+Date "2020-09-16"
 Rev "1.0"
 Comp "Halldin"
 Comment1 "IOExp_Relays"
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Relay:SANYOU_SRD_Form_C K?
+L Relay:SANYOU_SRD_Form_C K1
 U 1 1 5F643939
 P 3150 2450
-F 0 "K?" H 3580 2496 50  0000 L CNN
+F 0 "K1" H 3580 2496 50  0000 L CNN
 F 1 "SANYOU_SRD_Form_C" H 3580 2405 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 3600 2400 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 3150 2450 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 3150 2450 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR09
 U 1 1 5F64C92B
 P 2950 1400
-F 0 "#PWR?" H 2950 1250 50  0001 C CNN
+F 0 "#PWR09" H 2950 1250 50  0001 C CNN
 F 1 "+5V" H 2965 1573 50  0000 C CNN
 F 2 "" H 2950 1400 50  0001 C CNN
 F 3 "" H 2950 1400 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "" H 2950 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D3
 U 1 1 5F64D292
 P 2350 2450
-F 0 "D?" V 2304 2530 50  0000 L CNN
+F 0 "D3" V 2304 2530 50  0000 L CNN
 F 1 "D" V 2395 2530 50  0000 L CNN
 F 2 "" H 2350 2450 50  0001 C CNN
 F 3 "~" H 2350 2450 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "~" H 2350 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR010
 U 1 1 5F64EBA7
 P 2950 3000
-F 0 "#PWR?" H 2950 2750 50  0001 C CNN
+F 0 "#PWR010" H 2950 2750 50  0001 C CNN
 F 1 "GND" H 2955 2827 50  0000 C CNN
 F 2 "" H 2950 3000 50  0001 C CNN
 F 3 "" H 2950 3000 50  0001 C CNN
@@ -60,10 +60,10 @@ $EndComp
 Text HLabel 2150 1850 0    50   BiDi ~ 0
 Output_1
 $Comp
-L Transistor_FET:FDN340P Q?
+L Transistor_FET:FDN340P Q1
 U 1 1 5F60DD24
 P 2850 1850
-F 0 "Q?" H 3054 1896 50  0000 L CNN
+F 0 "Q1" H 3054 1896 50  0000 L CNN
 F 1 "FDN340P" H 3054 1805 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3050 1775 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 2850 1850 50  0001 L CNN
@@ -71,10 +71,10 @@ F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 2850 1850 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R3
 U 1 1 5F610E39
 P 2500 1500
-F 0 "R?" H 2570 1546 50  0000 L CNN
+F 0 "R3" H 2570 1546 50  0000 L CNN
 F 1 "R" H 2570 1455 50  0000 L CNN
 F 2 "" V 2430 1500 50  0001 C CNN
 F 3 "~" H 2500 1500 50  0001 C CNN
@@ -98,10 +98,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 2000 3450 2000
 $Comp
-L Connector:Screw_Terminal_01x03 J?
+L Connector:Screw_Terminal_01x03 J5
 U 1 1 5F64B72A
 P 4050 1950
-F 0 "J?" H 4130 1992 50  0000 L CNN
+F 0 "J5" H 4130 1992 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 4130 1901 50  0000 L CNN
 F 2 "" H 4050 1950 50  0001 C CNN
 F 3 "~" H 4050 1950 50  0001 C CNN
@@ -155,10 +155,10 @@ Wire Wire Line
 	2500 1850 2150 1850
 Connection ~ 2500 1850
 $Comp
-L Relay:SANYOU_SRD_Form_C K?
+L Relay:SANYOU_SRD_Form_C K3
 U 1 1 5F62CCBA
 P 8050 2450
-F 0 "K?" H 8480 2496 50  0000 L CNN
+F 0 "K3" H 8480 2496 50  0000 L CNN
 F 1 "SANYOU_SRD_Form_C" H 8480 2405 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 8500 2400 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 8050 2450 50  0001 C CNN
@@ -166,10 +166,10 @@ F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 8050 2450 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR015
 U 1 1 5F62CCC0
 P 7850 1400
-F 0 "#PWR?" H 7850 1250 50  0001 C CNN
+F 0 "#PWR015" H 7850 1250 50  0001 C CNN
 F 1 "+5V" H 7865 1573 50  0000 C CNN
 F 2 "" H 7850 1400 50  0001 C CNN
 F 3 "" H 7850 1400 50  0001 C CNN
@@ -177,10 +177,10 @@ F 3 "" H 7850 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D5
 U 1 1 5F62CCC6
 P 7250 2450
-F 0 "D?" V 7204 2530 50  0000 L CNN
+F 0 "D5" V 7204 2530 50  0000 L CNN
 F 1 "D" V 7295 2530 50  0000 L CNN
 F 2 "" H 7250 2450 50  0001 C CNN
 F 3 "~" H 7250 2450 50  0001 C CNN
@@ -188,10 +188,10 @@ F 3 "~" H 7250 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR016
 U 1 1 5F62CCCC
 P 7850 3000
-F 0 "#PWR?" H 7850 2750 50  0001 C CNN
+F 0 "#PWR016" H 7850 2750 50  0001 C CNN
 F 1 "GND" H 7855 2827 50  0000 C CNN
 F 2 "" H 7850 3000 50  0001 C CNN
 F 3 "" H 7850 3000 50  0001 C CNN
@@ -201,10 +201,10 @@ $EndComp
 Text HLabel 7050 1850 0    50   BiDi ~ 0
 Output_2
 $Comp
-L Transistor_FET:FDN340P Q?
+L Transistor_FET:FDN340P Q3
 U 1 1 5F62CCD3
 P 7750 1850
-F 0 "Q?" H 7954 1896 50  0000 L CNN
+F 0 "Q3" H 7954 1896 50  0000 L CNN
 F 1 "FDN340P" H 7954 1805 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7950 1775 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 7750 1850 50  0001 L CNN
@@ -212,10 +212,10 @@ F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 7750 1850 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R5
 U 1 1 5F62CCD9
 P 7400 1500
-F 0 "R?" H 7470 1546 50  0000 L CNN
+F 0 "R5" H 7470 1546 50  0000 L CNN
 F 1 "R" H 7470 1455 50  0000 L CNN
 F 2 "" V 7330 1500 50  0001 C CNN
 F 3 "~" H 7400 1500 50  0001 C CNN
@@ -239,10 +239,10 @@ Wire Wire Line
 Wire Wire Line
 	8150 2000 8350 2000
 $Comp
-L Connector:Screw_Terminal_01x03 J?
+L Connector:Screw_Terminal_01x03 J7
 U 1 1 5F62CCE7
 P 8950 1950
-F 0 "J?" H 9030 1992 50  0000 L CNN
+F 0 "J7" H 9030 1992 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 9030 1901 50  0000 L CNN
 F 2 "" H 8950 1950 50  0001 C CNN
 F 3 "~" H 8950 1950 50  0001 C CNN
@@ -296,10 +296,10 @@ Wire Wire Line
 	7400 1850 7050 1850
 Connection ~ 7400 1850
 $Comp
-L Relay:SANYOU_SRD_Form_C K?
+L Relay:SANYOU_SRD_Form_C K2
 U 1 1 5F634AB0
 P 3150 5100
-F 0 "K?" H 3580 5146 50  0000 L CNN
+F 0 "K2" H 3580 5146 50  0000 L CNN
 F 1 "SANYOU_SRD_Form_C" H 3580 5055 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 3600 5050 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 3150 5100 50  0001 C CNN
@@ -307,10 +307,10 @@ F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 3150 5100 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR011
 U 1 1 5F634AB6
 P 2950 4050
-F 0 "#PWR?" H 2950 3900 50  0001 C CNN
+F 0 "#PWR011" H 2950 3900 50  0001 C CNN
 F 1 "+5V" H 2965 4223 50  0000 C CNN
 F 2 "" H 2950 4050 50  0001 C CNN
 F 3 "" H 2950 4050 50  0001 C CNN
@@ -318,10 +318,10 @@ F 3 "" H 2950 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D4
 U 1 1 5F634ABC
 P 2350 5100
-F 0 "D?" V 2304 5180 50  0000 L CNN
+F 0 "D4" V 2304 5180 50  0000 L CNN
 F 1 "D" V 2395 5180 50  0000 L CNN
 F 2 "" H 2350 5100 50  0001 C CNN
 F 3 "~" H 2350 5100 50  0001 C CNN
@@ -329,10 +329,10 @@ F 3 "~" H 2350 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR012
 U 1 1 5F634AC2
 P 2950 5650
-F 0 "#PWR?" H 2950 5400 50  0001 C CNN
+F 0 "#PWR012" H 2950 5400 50  0001 C CNN
 F 1 "GND" H 2955 5477 50  0000 C CNN
 F 2 "" H 2950 5650 50  0001 C CNN
 F 3 "" H 2950 5650 50  0001 C CNN
@@ -342,10 +342,10 @@ $EndComp
 Text HLabel 2150 4500 0    50   BiDi ~ 0
 Output_3
 $Comp
-L Transistor_FET:FDN340P Q?
+L Transistor_FET:FDN340P Q2
 U 1 1 5F634AC9
 P 2850 4500
-F 0 "Q?" H 3054 4546 50  0000 L CNN
+F 0 "Q2" H 3054 4546 50  0000 L CNN
 F 1 "FDN340P" H 3054 4455 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3050 4425 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 2850 4500 50  0001 L CNN
@@ -353,10 +353,10 @@ F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 2850 4500 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R4
 U 1 1 5F634ACF
 P 2500 4150
-F 0 "R?" H 2570 4196 50  0000 L CNN
+F 0 "R4" H 2570 4196 50  0000 L CNN
 F 1 "R" H 2570 4105 50  0000 L CNN
 F 2 "" V 2430 4150 50  0001 C CNN
 F 3 "~" H 2500 4150 50  0001 C CNN
@@ -380,10 +380,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 4650 3450 4650
 $Comp
-L Connector:Screw_Terminal_01x03 J?
+L Connector:Screw_Terminal_01x03 J6
 U 1 1 5F634ADD
 P 4050 4600
-F 0 "J?" H 4130 4642 50  0000 L CNN
+F 0 "J6" H 4130 4642 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 4130 4551 50  0000 L CNN
 F 2 "" H 4050 4600 50  0001 C CNN
 F 3 "~" H 4050 4600 50  0001 C CNN
@@ -437,10 +437,10 @@ Wire Wire Line
 	2500 4500 2150 4500
 Connection ~ 2500 4500
 $Comp
-L Relay:SANYOU_SRD_Form_C K?
+L Relay:SANYOU_SRD_Form_C K4
 U 1 1 5F6409D1
 P 8050 5100
-F 0 "K?" H 8480 5146 50  0000 L CNN
+F 0 "K4" H 8480 5146 50  0000 L CNN
 F 1 "SANYOU_SRD_Form_C" H 8480 5055 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 8500 5050 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 8050 5100 50  0001 C CNN
@@ -448,10 +448,10 @@ F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 8050 5100 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR017
 U 1 1 5F6409D7
 P 7850 4050
-F 0 "#PWR?" H 7850 3900 50  0001 C CNN
+F 0 "#PWR017" H 7850 3900 50  0001 C CNN
 F 1 "+5V" H 7865 4223 50  0000 C CNN
 F 2 "" H 7850 4050 50  0001 C CNN
 F 3 "" H 7850 4050 50  0001 C CNN
@@ -459,10 +459,10 @@ F 3 "" H 7850 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D6
 U 1 1 5F6409DD
 P 7250 5100
-F 0 "D?" V 7204 5180 50  0000 L CNN
+F 0 "D6" V 7204 5180 50  0000 L CNN
 F 1 "D" V 7295 5180 50  0000 L CNN
 F 2 "" H 7250 5100 50  0001 C CNN
 F 3 "~" H 7250 5100 50  0001 C CNN
@@ -470,10 +470,10 @@ F 3 "~" H 7250 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR018
 U 1 1 5F6409E3
 P 7850 5650
-F 0 "#PWR?" H 7850 5400 50  0001 C CNN
+F 0 "#PWR018" H 7850 5400 50  0001 C CNN
 F 1 "GND" H 7855 5477 50  0000 C CNN
 F 2 "" H 7850 5650 50  0001 C CNN
 F 3 "" H 7850 5650 50  0001 C CNN
@@ -483,10 +483,10 @@ $EndComp
 Text HLabel 7050 4500 0    50   BiDi ~ 0
 Output_4
 $Comp
-L Transistor_FET:FDN340P Q?
+L Transistor_FET:FDN340P Q4
 U 1 1 5F6409EA
 P 7750 4500
-F 0 "Q?" H 7954 4546 50  0000 L CNN
+F 0 "Q4" H 7954 4546 50  0000 L CNN
 F 1 "FDN340P" H 7954 4455 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7950 4425 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 7750 4500 50  0001 L CNN
@@ -494,10 +494,10 @@ F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 7750 4500 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R6
 U 1 1 5F6409F0
 P 7400 4150
-F 0 "R?" H 7470 4196 50  0000 L CNN
+F 0 "R6" H 7470 4196 50  0000 L CNN
 F 1 "R" H 7470 4105 50  0000 L CNN
 F 2 "" V 7330 4150 50  0001 C CNN
 F 3 "~" H 7400 4150 50  0001 C CNN
@@ -521,10 +521,10 @@ Wire Wire Line
 Wire Wire Line
 	8150 4650 8350 4650
 $Comp
-L Connector:Screw_Terminal_01x03 J?
+L Connector:Screw_Terminal_01x03 J8
 U 1 1 5F6409FE
 P 8950 4600
-F 0 "J?" H 9030 4642 50  0000 L CNN
+F 0 "J8" H 9030 4642 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 9030 4551 50  0000 L CNN
 F 2 "" H 8950 4600 50  0001 C CNN
 F 3 "~" H 8950 4600 50  0001 C CNN
@@ -578,10 +578,10 @@ Wire Wire Line
 	7400 4500 7050 4500
 Connection ~ 7400 4500
 $Comp
-L Device:CP C?
+L Device:CP C3
 U 1 1 5F69DC17
 P 5850 3400
-F 0 "C?" H 5968 3446 50  0000 L CNN
+F 0 "C3" H 5968 3446 50  0000 L CNN
 F 1 "CP" H 5968 3355 50  0000 L CNN
 F 2 "" H 5888 3250 50  0001 C CNN
 F 3 "~" H 5850 3400 50  0001 C CNN
@@ -589,10 +589,10 @@ F 3 "~" H 5850 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR013
 U 1 1 5F69EA52
 P 5850 3100
-F 0 "#PWR?" H 5850 2950 50  0001 C CNN
+F 0 "#PWR013" H 5850 2950 50  0001 C CNN
 F 1 "+5V" H 5865 3273 50  0000 C CNN
 F 2 "" H 5850 3100 50  0001 C CNN
 F 3 "" H 5850 3100 50  0001 C CNN
@@ -600,10 +600,10 @@ F 3 "" H 5850 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR014
 U 1 1 5F69F3F2
 P 5850 3700
-F 0 "#PWR?" H 5850 3450 50  0001 C CNN
+F 0 "#PWR014" H 5850 3450 50  0001 C CNN
 F 1 "GND" H 5855 3527 50  0000 C CNN
 F 2 "" H 5850 3700 50  0001 C CNN
 F 3 "" H 5850 3700 50  0001 C CNN

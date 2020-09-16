@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Screw_Terminal_01x03 J?
+L Connector:Screw_Terminal_01x03 J1
 U 1 1 5F5FC144
 P 8200 2600
-F 0 "J?" H 8280 2642 50  0000 L CNN
+F 0 "J1" H 8280 2642 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 8280 2551 50  0000 L CNN
 F 2 "" H 8200 2600 50  0001 C CNN
 F 3 "~" H 8200 2600 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "~" H 8200 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J?
+L Connector:Screw_Terminal_01x03 J2
 U 1 1 5F5FD171
 P 8200 3100
-F 0 "J?" H 8280 3142 50  0000 L CNN
+F 0 "J2" H 8280 3142 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 8280 3051 50  0000 L CNN
 F 2 "" H 8200 3100 50  0001 C CNN
 F 3 "~" H 8200 3100 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "~" H 8200 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J?
+L Connector:Screw_Terminal_01x03 J3
 U 1 1 5F5FD6BF
 P 8200 3600
-F 0 "J?" H 8280 3642 50  0000 L CNN
+F 0 "J3" H 8280 3642 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 8280 3551 50  0000 L CNN
 F 2 "" H 8200 3600 50  0001 C CNN
 F 3 "~" H 8200 3600 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "~" H 8200 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J?
+L Connector:Screw_Terminal_01x03 J4
 U 1 1 5F5FDAC4
 P 8200 4100
-F 0 "J?" H 8280 4142 50  0000 L CNN
+F 0 "J4" H 8280 4142 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 8280 4051 50  0000 L CNN
 F 2 "" H 8200 4100 50  0001 C CNN
 F 3 "~" H 8200 4100 50  0001 C CNN
@@ -58,10 +58,10 @@ F 3 "~" H 8200 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR08
 U 1 1 5F6061D2
 P 7650 2000
-F 0 "#PWR?" H 7650 1850 50  0001 C CNN
+F 0 "#PWR08" H 7650 1850 50  0001 C CNN
 F 1 "+5V" H 7665 2173 50  0000 C CNN
 F 2 "" H 7650 2000 50  0001 C CNN
 F 3 "" H 7650 2000 50  0001 C CNN
@@ -69,10 +69,10 @@ F 3 "" H 7650 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR07
 U 1 1 5F60695E
 P 7500 4500
-F 0 "#PWR?" H 7500 4250 50  0001 C CNN
+F 0 "#PWR07" H 7500 4250 50  0001 C CNN
 F 1 "GND" H 7505 4327 50  0000 C CNN
 F 2 "" H 7500 4500 50  0001 C CNN
 F 3 "" H 7500 4500 50  0001 C CNN
@@ -134,10 +134,10 @@ Wire Wire Line
 Wire Wire Line
 	6850 4100 8000 4100
 $Comp
-L Device:CP C?
+L Device:CP C2
 U 1 1 5F69BB32
 P 5800 3350
-F 0 "C?" H 5918 3396 50  0000 L CNN
+F 0 "C2" H 5918 3396 50  0000 L CNN
 F 1 "CP" H 5918 3305 50  0000 L CNN
 F 2 "" H 5838 3200 50  0001 C CNN
 F 3 "~" H 5800 3350 50  0001 C CNN
