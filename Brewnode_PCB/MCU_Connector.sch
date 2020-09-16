@@ -40,15 +40,14 @@ L Connector_Generic:Conn_01x16 J17
 U 1 1 5F62AB42
 P 6250 3700
 F 0 "J17" H 6168 2675 50  0000 C CNN
-F 1 "THD0510-16CL-GF" H 6168 2766 50  0000 C CNN
+F 1 "16p FPC" H 6168 2766 50  0000 C CNN
 F 2 "" H 6250 3700 50  0001 C CNN
-F 3 "~" H 6250 3700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811021340_THD-THD0510-16CL-GF_C283123.pdf" H 6250 3700 50  0001 C CNN
 F 4 "C283123" H 6250 3700 50  0001 C CNN "LCSC"
+F 5 "THD0510-16CL-GF" H 6250 3700 50  0001 C CNN "Mfc"
 	1    6250 3700
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9500 6000 7600 6000
 Wire Wire Line
 	7600 6000 7600 4400
 Wire Wire Line
@@ -58,10 +57,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 4300 7600 4400
 Connection ~ 7600 4400
-Wire Wire Line
-	9500 5500 7700 5500
-Wire Wire Line
-	9500 5000 7800 5000
 Wire Wire Line
 	9500 4500 7900 4500
 Wire Wire Line
@@ -129,4 +124,11 @@ Wire Wire Line
 Connection ~ 7700 4100
 Wire Wire Line
 	7700 4100 7700 5500
+NoConn ~ 6450 2900
+Wire Wire Line
+	7800 5000 9500 5000
+Wire Wire Line
+	7700 5500 9500 5500
+Wire Wire Line
+	7600 6000 9500 6000
 $EndSCHEMATC

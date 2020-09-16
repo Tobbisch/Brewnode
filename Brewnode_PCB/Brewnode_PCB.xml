@@ -1,0 +1,1698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Program Files\KiCad\share\kicad\Brewnode\Brewnode_PCB\Brewnode_PCB.sch</source>
+    <date>2020-09-16 23:47:58</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BrewnodeV1</title>
+        <company>Halldin</company>
+        <rev>1.0</rev>
+        <date>2020-09-16</date>
+        <source>Brewnode_PCB.sch</source>
+        <comment number="1" value="Main"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/IO Expander/" tstamps="/5F5F1150/">
+      <title_block>
+        <title>BrewnodeV1</title>
+        <company>Halldin</company>
+        <rev>1.0</rev>
+        <date>2020-09-16</date>
+        <source>IOExp.sch</source>
+        <comment number="1" value="IO Expander"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/IO Expander/IOExp_Inputs/" tstamps="/5F5F1150/5F5FA99D/">
+      <title_block>
+        <title>BrewnodeV1</title>
+        <company>Halldin</company>
+        <rev>1.0</rev>
+        <date>2020-09-16</date>
+        <source>IOExp_Inputs.sch</source>
+        <comment number="1" value="IOExp_Inputs"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/">
+      <title_block>
+        <title>BrewnodeV1</title>
+        <company>Halldin</company>
+        <rev>1.0</rev>
+        <date>2020-09-16</date>
+        <source>IOExp_Relays.sch</source>
+        <comment number="1" value="IOExp_Relays"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/ADC/" tstamps="/5F66CC9A/">
+      <title_block>
+        <title>BrewnodeV1</title>
+        <company>Halldin</company>
+        <rev>1.0</rev>
+        <date>2020-09-16</date>
+        <source>ADC.sch</source>
+        <comment number="1" value="ADC"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Lvl_Shifter/" tstamps="/5F6162C4/">
+      <title_block>
+        <title>BrewnodeV1</title>
+        <company>Halldin</company>
+        <rev>1.0</rev>
+        <date>2020-09-16</date>
+        <source>Lvl_Shifter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Digital_Sensors/" tstamps="/5F66FC6A/">
+      <title_block>
+        <title>BrewnodeV1</title>
+        <company>Halldin</company>
+        <rev>1.0</rev>
+        <date>2020-09-16</date>
+        <source>Digital_Sensors.sch</source>
+        <comment number="1" value="Digital Sensors"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/MCU_Connector/" tstamps="/5F61AF49/">
+      <title_block>
+        <title>BrewnodeV1</title>
+        <company>Halldin</company>
+        <rev>1.0</rev>
+        <date>2020-09-16</date>
+        <source>MCU_Connector.sch</source>
+        <comment number="1" value="MCU_Connector"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D2">
+      <value>LED_1206</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810231512_Lite-On-LTST-C150KGKT_C125085.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C125085</field>
+        <field name="Mfc">LTST-C150KGKT</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F63FACC</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_1206</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810231512_Lite-On-LTST-C150KGKT_C125085.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C125085</field>
+        <field name="Mfc">LTST-C150KGKT</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F640D08</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1808141123_Littelfuse-0435-500KRHF_C206945.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C206945</field>
+        <field name="Mfc">0435.500KRHF</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F642EA5</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>500mA</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1808141123_Littelfuse-0435-500KRHF_C206945.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C206945</field>
+        <field name="Mfc">0435.500KRHF</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F643C7B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220Ohm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810241809_UNI-ROYAL-Uniroyal-Elec-0805W8F2200T5E_C17557.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17557</field>
+        <field name="Mfc">0805W8F2200T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6454C7</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100Ohm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1809062111_UNI-ROYAL-Uniroyal-Elec-0805W8F1000T5E_C17408.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17408</field>
+        <field name="Mfc">0805W8F1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F64C09B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>PCF8574</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1809261711_NXP-Semicon-PCF8574T-3-518_C7605.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C7605</field>
+        <field name="Mfc">PCF8574T/3,518</field>
+      </fields>
+      <libsource lib="Interface_Expansion" part="PCF8574" description="8 Bit Port/Expander to I2C Bus, DIP/SOIC-16"/>
+      <sheetpath names="/IO Expander/" tstamps="/5F5F1150/"/>
+      <tstamp>5F5F2794</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+        <field name="Mfc">CL05B104KO5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/IO Expander/" tstamps="/5F5F1150/"/>
+      <tstamp>5F66D058</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/IO Expander/IOExp_Inputs/" tstamps="/5F5F1150/5F5FA99D/"/>
+      <tstamp>5F5FC144</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/IO Expander/IOExp_Inputs/" tstamps="/5F5F1150/5F5FA99D/"/>
+      <tstamp>5F5FD171</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/IO Expander/IOExp_Inputs/" tstamps="/5F5F1150/5F5FA99D/"/>
+      <tstamp>5F5FD6BF</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/IO Expander/IOExp_Inputs/" tstamps="/5F5F1150/5F5FA99D/"/>
+      <tstamp>5F5FDAC4</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.3</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_Lelon-VEZ470M1CTR-0605_C249778.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C249778</field>
+        <field name="Mfc">	VEZ470M1CTR-0605</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/IO Expander/IOExp_Inputs/" tstamps="/5F5F1150/5F5FA99D/"/>
+      <tstamp>5F69BB32</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>SANYOU_SRD_Form_C</value>
+      <footprint>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811021933_Ningbo-Songle-Relay-SRD-05VDC-SL-C_C35449.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C35449</field>
+        <field name="Mfc">SRD-05VDC-SL-C</field>
+      </fields>
+      <libsource lib="Relay" part="SANYOU_SRD_Form_C" description="Sanyo SRD relay, Single Pole Miniature Power Relay,"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F643939</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SMA</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810311713_MDD-Microdiode-Electronics-M7_C95872.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C95872</field>
+        <field name="Mfc">M7</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F64D292</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>FDN340P</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C75469</field>
+        <field name="Mfc">FDN340P</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDN340P" description="2A Id, 20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F60DD24</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F610E39</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F64B72A</tstamp>
+    </comp>
+    <comp ref="K3">
+      <value>SANYOU_SRD_Form_C</value>
+      <footprint>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811021933_Ningbo-Songle-Relay-SRD-05VDC-SL-C_C35449.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C35449</field>
+        <field name="Mfc">SRD-05VDC-SL-C</field>
+      </fields>
+      <libsource lib="Relay" part="SANYOU_SRD_Form_C" description="Sanyo SRD relay, Single Pole Miniature Power Relay,"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F62CCBA</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>SMA</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810311713_MDD-Microdiode-Electronics-M7_C95872.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C95872</field>
+        <field name="Mfc">M7</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F62CCC6</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>FDN340P</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C75469</field>
+        <field name="Mfc">FDN340P</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDN340P" description="2A Id, 20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F62CCD3</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F62CCD9</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F62CCE7</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>SANYOU_SRD_Form_C</value>
+      <footprint>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811021933_Ningbo-Songle-Relay-SRD-05VDC-SL-C_C35449.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C35449</field>
+        <field name="Mfc">SRD-05VDC-SL-C</field>
+      </fields>
+      <libsource lib="Relay" part="SANYOU_SRD_Form_C" description="Sanyo SRD relay, Single Pole Miniature Power Relay,"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F634AB0</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>SMA</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810311713_MDD-Microdiode-Electronics-M7_C95872.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C95872</field>
+        <field name="Mfc">M7</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F634ABC</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>FDN340P</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C75469</field>
+        <field name="Mfc">FDN340P</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDN340P" description="2A Id, 20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F634AC9</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F634ACF</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F634ADD</tstamp>
+    </comp>
+    <comp ref="K4">
+      <value>SANYOU_SRD_Form_C</value>
+      <footprint>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811021933_Ningbo-Songle-Relay-SRD-05VDC-SL-C_C35449.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C35449</field>
+        <field name="Mfc">SRD-05VDC-SL-C</field>
+      </fields>
+      <libsource lib="Relay" part="SANYOU_SRD_Form_C" description="Sanyo SRD relay, Single Pole Miniature Power Relay,"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F6409D1</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>SMA</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810311713_MDD-Microdiode-Electronics-M7_C95872.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C95872</field>
+        <field name="Mfc">M7</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F6409DD</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>FDN340P</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C75469</field>
+        <field name="Mfc">FDN340P</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDN340P" description="2A Id, 20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F6409EA</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F6409F0</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F6409FE</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>220uF</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_Lelon-VUA221M1ATR-0810_C249801.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C249801</field>
+        <field name="Mfc">VUA221M1ATR-0810</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
+      <tstamp>5F69DC17</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ADS1115IDGS</value>
+      <footprint>Package_SO:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1809192322_Texas-Instruments-ADS1115IDGSR_C37593.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C37593</field>
+        <field name="Mfc">ADS1115IDGSR</field>
+      </fields>
+      <libsource lib="Analog_ADC" part="ADS1115IDGS" description="Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F671F24</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F67AE54</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F67CFB3</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F67D7CC</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F67DB58</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+        <field name="Mfc">CL05B104KO5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F692BD5</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>47uF</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_Lelon-VEZ470M1CTR-0605_C249778.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C249778</field>
+        <field name="Mfc">	VEZ470M1CTR-0605</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F69915C</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>8.2kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_UNI-ROYAL-Uniroyal-Elec-0805W8D8201T5E_C407435.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C407435</field>
+        <field name="Mfc">0805W8D8201T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F6380A2</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>8.2kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_UNI-ROYAL-Uniroyal-Elec-0805W8D8201T5E_C407435.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C407435</field>
+        <field name="Mfc">0805W8D8201T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F6380A8</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_2_Open</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F64E0CE</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_2_Open</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F64EF25</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>8.2kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_UNI-ROYAL-Uniroyal-Elec-0805W8D8201T5E_C407435.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C407435</field>
+        <field name="Mfc">0805W8D8201T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F6912D6</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>8.2kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_UNI-ROYAL-Uniroyal-Elec-0805W8D8201T5E_C407435.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C407435</field>
+        <field name="Mfc">0805W8D8201T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F6912DC</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper_2_Open</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F6912EC</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper_2_Open</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F6912F2</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>8.2kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_UNI-ROYAL-Uniroyal-Elec-0805W8D8201T5E_C407435.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C407435</field>
+        <field name="Mfc">0805W8D8201T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F694267</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>8.2kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_UNI-ROYAL-Uniroyal-Elec-0805W8D8201T5E_C407435.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C407435</field>
+        <field name="Mfc">0805W8D8201T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F69426D</tstamp>
+    </comp>
+    <comp ref="JP6">
+      <value>Jumper_2_Open</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F69427D</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>Jumper_2_Open</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F694283</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>8.2kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_UNI-ROYAL-Uniroyal-Elec-0805W8D8201T5E_C407435.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C407435</field>
+        <field name="Mfc">0805W8D8201T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F6C52F3</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>8.2kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_UNI-ROYAL-Uniroyal-Elec-0805W8D8201T5E_C407435.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C407435</field>
+        <field name="Mfc">0805W8D8201T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F6C52F9</tstamp>
+    </comp>
+    <comp ref="JP8">
+      <value>Jumper_2_Open</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F6C5309</tstamp>
+    </comp>
+    <comp ref="JP7">
+      <value>Jumper_2_Open</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
+      <tstamp>5F6C530F</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C52895</field>
+        <field name="Mfc">BSS138</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
+      <tstamp>5F616C31</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C52895</field>
+        <field name="Mfc">BSS138</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
+      <tstamp>5F61F40A</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C52895</field>
+        <field name="Mfc">BSS138</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
+      <tstamp>5F6211B8</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C52895</field>
+        <field name="Mfc">BSS138</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
+      <tstamp>5F622813</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
+      <tstamp>5F628659</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
+      <tstamp>5F62A38F</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
+      <tstamp>5F62D0C7</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
+      <tstamp>5F62D0CD</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
+      <tstamp>5F62DDE3</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
+      <tstamp>5F62DDE9</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
+      <tstamp>5F62E36B</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
+      <tstamp>5F62E371</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Digital_Sensors/" tstamps="/5F66FC6A/"/>
+      <tstamp>5F673095</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Digital_Sensors/" tstamps="/5F66FC6A/"/>
+      <tstamp>5F675772</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Digital_Sensors/" tstamps="/5F66FC6A/"/>
+      <tstamp>5F67616B</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8377</field>
+        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Digital_Sensors/" tstamps="/5F66FC6A/"/>
+      <tstamp>5F676BDB</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>47uF</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_Lelon-VEZ470M1CTR-0605_C249778.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C249778</field>
+        <field name="Mfc">	VEZ470M1CTR-0605</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Digital_Sensors/" tstamps="/5F66FC6A/"/>
+      <tstamp>5F679881</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>4.7kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1808281533_UNI-ROYAL-Uniroyal-Elec-0805W8F4701T5E_C17673.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17673</field>
+        <field name="Mfc">0805W8F4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital_Sensors/" tstamps="/5F66FC6A/"/>
+      <tstamp>5F68371C</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>4.7kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1808281533_UNI-ROYAL-Uniroyal-Elec-0805W8F4701T5E_C17673.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17673</field>
+        <field name="Mfc">0805W8F4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital_Sensors/" tstamps="/5F66FC6A/"/>
+      <tstamp>5F684655</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>4.7kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1808281533_UNI-ROYAL-Uniroyal-Elec-0805W8F4701T5E_C17673.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17673</field>
+        <field name="Mfc">0805W8F4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital_Sensors/" tstamps="/5F66FC6A/"/>
+      <tstamp>5F6857AA</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>4.7kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1808281533_UNI-ROYAL-Uniroyal-Elec-0805W8F4701T5E_C17673.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17673</field>
+        <field name="Mfc">0805W8F4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital_Sensors/" tstamps="/5F66FC6A/"/>
+      <tstamp>5F685F5C</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>16p FPC</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811021340_THD-THD0510-16CL-GF_C283123.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C283123</field>
+        <field name="Mfc">THD0510-16CL-GF</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x16" description="Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/MCU_Connector/" tstamps="/5F61AF49/"/>
+      <tstamp>5F62AB42</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Analog_ADC" part="ADS1015IDGS">
+      <aliases>
+        <alias>ADS1115IDGS</alias>
+      </aliases>
+      <description>Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ads1015.pdf</docs>
+      <footprints>
+        <fp>TSSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1015IDGS</field>
+        <field name="Footprint">Package_SO:TSSOP-10_3x3mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR" type="input"/>
+        <pin num="2" name="ALERT/RDY" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="AIN0" type="input"/>
+        <pin num="5" name="AIN1" type="input"/>
+        <pin num="6" name="AIN2" type="input"/>
+        <pin num="7" name="AIN3" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="SDA" type="BiDi"/>
+        <pin num="10" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x16">
+      <description>Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Expansion" part="PCF8574">
+      <aliases>
+        <alias>PCF8574A</alias>
+      </aliases>
+      <description>8 Bit Port/Expander to I2C Bus, DIP/SOIC-16</description>
+      <docs>http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCF8574</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="P0" type="BiDi"/>
+        <pin num="5" name="P1" type="BiDi"/>
+        <pin num="6" name="P2" type="BiDi"/>
+        <pin num="7" name="P3" type="BiDi"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="P4" type="BiDi"/>
+        <pin num="10" name="P5" type="BiDi"/>
+        <pin num="11" name="P6" type="BiDi"/>
+        <pin num="12" name="P7" type="BiDi"/>
+        <pin num="13" name="~INT~" type="openCol"/>
+        <pin num="14" name="SCL" type="input"/>
+        <pin num="15" name="SDA" type="BiDi"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="SANYOU_SRD_Form_C">
+      <description>Sanyo SRD relay, Single Pole Miniature Power Relay,</description>
+      <docs>http://www.sanyourelay.ca/public/products/pdf/SRD.pdf</docs>
+      <footprints>
+        <fp>Relay*SPDT*SANYOU*SRD*Series*Form*C*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">SANYOU_SRD_Form_C</field>
+        <field name="Footprint">Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+        <alias>AO3400A</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="TP0610T">
+      <aliases>
+        <alias>VP0610T</alias>
+        <alias>BSS84</alias>
+        <alias>NTR2101P</alias>
+        <alias>BSS83P</alias>
+        <alias>Si2319CDS</alias>
+        <alias>IRLML6401</alias>
+        <alias>IRLML6402</alias>
+        <alias>DMG2301L</alias>
+        <alias>AO3401A</alias>
+        <alias>IRLML9301</alias>
+        <alias>IRLML5203</alias>
+        <alias>Si2371EDS</alias>
+        <alias>TSM2301ACX</alias>
+        <alias>FDN340P</alias>
+      </aliases>
+      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TP0610T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_ADC">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Analog_ADC.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Interface_Expansion">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Interface_Expansion.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Jumper.lib</uri>
+    </library>
+    <library logical="Relay">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Relay.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="JP2" pin="2"/>
+      <node ref="JP4" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U2" pin="1"/>
+      <node ref="JP6" pin="2"/>
+      <node ref="J11" pin="3"/>
+      <node ref="J10" pin="3"/>
+      <node ref="J9" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="JP8" pin="2"/>
+      <node ref="J12" pin="3"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J17" pin="4"/>
+      <node ref="J17" pin="5"/>
+      <node ref="J17" pin="6"/>
+      <node ref="K4" pin="2"/>
+      <node ref="K1" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="K3" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="K2" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J13" pin="3"/>
+      <node ref="J14" pin="3"/>
+      <node ref="J15" pin="3"/>
+      <node ref="J16" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J4" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="4" name="+3V3">
+      <node ref="Q7" pin="1"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="Q8" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="F2" pin="1"/>
+    </net>
+    <net code="5" name="/Digital_Sensors/Port2">
+      <node ref="R24" pin="2"/>
+      <node ref="J14" pin="2"/>
+      <node ref="J17" pin="14"/>
+    </net>
+    <net code="6" name="/Digital_Sensors/Port1">
+      <node ref="R23" pin="2"/>
+      <node ref="J17" pin="15"/>
+      <node ref="J13" pin="2"/>
+    </net>
+    <net code="7" name="/ADC/5V_ADC_SDA">
+      <node ref="U2" pin="9"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="U1" pin="15"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="8" name="/Lvl_Shifter/HV_3">
+      <node ref="U1" pin="13"/>
+      <node ref="R21" pin="2"/>
+      <node ref="Q7" pin="3"/>
+    </net>
+    <net code="9" name="+5V">
+      <node ref="R23" pin="1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J11" pin="1"/>
+      <node ref="J12" pin="1"/>
+      <node ref="J16" pin="1"/>
+      <node ref="J15" pin="1"/>
+      <node ref="J14" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="J13" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="F1" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="10" name="/Digital_Sensors/Port3">
+      <node ref="J15" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="J17" pin="13"/>
+    </net>
+    <net code="11" name="/MCU_Connector/3V3_SDA">
+      <node ref="R16" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="J17" pin="10"/>
+    </net>
+    <net code="12" name="/MCU_Connector/3V3_SCL">
+      <node ref="J17" pin="11"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="13" name="/MCU_Connector/3V3">
+      <node ref="F2" pin="2"/>
+      <node ref="J17" pin="7"/>
+    </net>
+    <net code="14" name="/MCU_Connector/5V">
+      <node ref="J17" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="J17" pin="3"/>
+      <node ref="J17" pin="2"/>
+    </net>
+    <net code="15" name="/Digital_Sensors/Port4">
+      <node ref="R26" pin="2"/>
+      <node ref="J16" pin="2"/>
+      <node ref="J17" pin="12"/>
+    </net>
+    <net code="16" name="/ADC/5V_ADC_RDY">
+      <node ref="Q8" pin="3"/>
+      <node ref="R22" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="17" name="/ADC/5V_ADC_SCL">
+      <node ref="Q5" pin="3"/>
+      <node ref="U2" pin="10"/>
+      <node ref="R19" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="18" name="/MCU_Connector/3V3_ADC_Int">
+      <node ref="J17" pin="8"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="19" name="/MCU_Connector/3V3_IOExp_Int">
+      <node ref="R17" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="J17" pin="9"/>
+    </net>
+    <net code="20" name="/IO Expander/IOExp_Inputs/Input_4">
+      <node ref="J4" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="21" name="/IO Expander/IOExp_Inputs/Input_3">
+      <node ref="U1" pin="6"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="22" name="/IO Expander/IOExp_Inputs/Input_2">
+      <node ref="U1" pin="5"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="23" name="/IO Expander/IOExp_Inputs/Input_1">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="24" name="/IO Expander/IOExp_Relays/Output_4">
+      <node ref="Q4" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="25" name="/IO Expander/IOExp_Relays/Output_3">
+      <node ref="Q2" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="26" name="/IO Expander/IOExp_Relays/Output_2">
+      <node ref="Q3" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="27" name="/IO Expander/IOExp_Relays/Output_1">
+      <node ref="U1" pin="9"/>
+      <node ref="R3" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="28" name="Net-(J17-Pad16)">
+      <node ref="J17" pin="16"/>
+    </net>
+    <net code="29" name="/ADC/AIN0">
+      <node ref="JP1" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="30" name="/ADC/AIN3">
+      <node ref="R14" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="JP7" pin="2"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="31" name="/ADC/AIN2">
+      <node ref="JP5" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="32" name="/ADC/AIN1">
+      <node ref="U2" pin="5"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="33" name="/ADC/IN_AIN0">
+      <node ref="R7" pin="1"/>
+      <node ref="J9" pin="2"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="34" name="/ADC/IN_AIN1">
+      <node ref="J10" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="JP3" pin="1"/>
+    </net>
+    <net code="35" name="/ADC/IN_AIN2">
+      <node ref="JP5" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="36" name="/ADC/IN_AIN3">
+      <node ref="J12" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="JP7" pin="1"/>
+    </net>
+    <net code="37" name="Net-(JP4-Pad1)">
+      <node ref="JP4" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="38" name="Net-(JP2-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="JP2" pin="1"/>
+    </net>
+    <net code="39" name="Net-(JP8-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="JP8" pin="1"/>
+    </net>
+    <net code="40" name="Net-(JP6-Pad1)">
+      <node ref="JP6" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="41" name="Net-(J8-Pad1)">
+      <node ref="K4" pin="4"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="42" name="Net-(D6-Pad1)">
+      <node ref="K4" pin="5"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="43" name="Net-(J8-Pad3)">
+      <node ref="K4" pin="3"/>
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="44" name="Net-(J8-Pad2)">
+      <node ref="J8" pin="2"/>
+      <node ref="K4" pin="1"/>
+    </net>
+    <net code="45" name="Net-(J6-Pad3)">
+      <node ref="J6" pin="3"/>
+      <node ref="K2" pin="3"/>
+    </net>
+    <net code="46" name="Net-(D4-Pad1)">
+      <node ref="Q2" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="K2" pin="5"/>
+    </net>
+    <net code="47" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="K2" pin="4"/>
+    </net>
+    <net code="48" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2"/>
+      <node ref="K2" pin="1"/>
+    </net>
+    <net code="49" name="Net-(D3-Pad1)">
+      <node ref="K1" pin="5"/>
+      <node ref="D3" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="50" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="K1" pin="4"/>
+    </net>
+    <net code="51" name="Net-(J5-Pad3)">
+      <node ref="K1" pin="3"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="52" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="K1" pin="1"/>
+    </net>
+    <net code="53" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="K3" pin="5"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="54" name="Net-(J7-Pad1)">
+      <node ref="K3" pin="4"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="55" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2"/>
+      <node ref="K3" pin="1"/>
+    </net>
+    <net code="56" name="Net-(J7-Pad3)">
+      <node ref="J7" pin="3"/>
+      <node ref="K3" pin="3"/>
+    </net>
+  </nets>
+</export>
