@@ -14,58 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Screw_Terminal_01x03 J1
-U 1 1 5F5FC144
-P 8200 2600
-F 0 "J1" H 8280 2642 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 8280 2551 50  0000 L CNN
-F 2 "" H 8200 2600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf" H 8200 2600 50  0001 C CNN
-F 4 "C8377" H 8200 2600 50  0001 C CNN "LCSC"
-F 5 "WJ2EDGRC-5.08-3P" H 8200 2600 50  0001 C CNN "Mfc"
-	1    8200 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x03 J2
-U 1 1 5F5FD171
-P 8200 3100
-F 0 "J2" H 8280 3142 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 8280 3051 50  0000 L CNN
-F 2 "" H 8200 3100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf" H 8200 3100 50  0001 C CNN
-F 4 "C8377" H 8200 3100 50  0001 C CNN "LCSC"
-F 5 "WJ2EDGRC-5.08-3P" H 8200 3100 50  0001 C CNN "Mfc"
-	1    8200 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x03 J3
-U 1 1 5F5FD6BF
-P 8200 3600
-F 0 "J3" H 8280 3642 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 8280 3551 50  0000 L CNN
-F 2 "" H 8200 3600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf" H 8200 3600 50  0001 C CNN
-F 4 "C8377" H 8200 3600 50  0001 C CNN "LCSC"
-F 5 "WJ2EDGRC-5.08-3P" H 8200 3600 50  0001 C CNN "Mfc"
-	1    8200 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x03 J4
-U 1 1 5F5FDAC4
-P 8200 4100
-F 0 "J4" H 8280 4142 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 8280 4051 50  0000 L CNN
-F 2 "" H 8200 4100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf" H 8200 4100 50  0001 C CNN
-F 4 "C8377" H 8200 4100 50  0001 C CNN "LCSC"
-F 5 "WJ2EDGRC-5.08-3P" H 8200 4100 50  0001 C CNN "Mfc"
-	1    8200 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR08
 U 1 1 5F6061D2
 P 7650 2000
@@ -105,7 +53,7 @@ Connection ~ 7650 3500
 Wire Wire Line
 	7650 3500 7650 4000
 Wire Wire Line
-	7500 4500 7500 4200
+	7500 4500 7500 4350
 Wire Wire Line
 	7500 2700 8000 2700
 Wire Wire Line
@@ -124,7 +72,7 @@ Connection ~ 7500 3200
 Wire Wire Line
 	7500 3200 7500 2700
 Wire Wire Line
-	7650 2000 7650 2500
+	7650 2000 7650 2350
 Text HLabel 6850 2600 0    50   BiDi ~ 0
 Input_1
 Text HLabel 6850 3100 0    50   BiDi ~ 0
@@ -134,32 +82,217 @@ Input_3
 Text HLabel 6850 4100 0    50   BiDi ~ 0
 Input_4
 Wire Wire Line
-	6850 2600 8000 2600
+	6850 3100 7050 3100
 Wire Wire Line
-	6850 3100 8000 3100
+	6850 3600 7050 3600
 Wire Wire Line
-	6850 3600 8000 3600
-Wire Wire Line
-	6850 4100 8000 4100
+	6850 4100 7050 4100
 $Comp
 L Device:CP C2
 U 1 1 5F69BB32
-P 5800 3350
-F 0 "C2" H 5918 3396 50  0000 L CNN
-F 1 "47uF" H 5918 3305 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 5838 3200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Lelon-VEZ470M1CTR-0605_C249778.pdf" H 5800 3350 50  0001 C CNN
-F 4 "C249778" H 5800 3350 50  0001 C CNN "LCSC"
-F 5 "	VEZ470M1CTR-0605" H 5800 3350 50  0001 C CNN "Mfc"
-	1    5800 3350
+P 9600 3350
+F 0 "C2" H 9718 3396 50  0000 L CNN
+F 1 "47uF" H 9718 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 9638 3200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Lelon-VEZ470M1CTR-0605_C249778.pdf" H 9600 3350 50  0001 C CNN
+F 4 "C249778" H 9600 3350 50  0001 C CNN "LCSC"
+F 5 "	VEZ470M1CTR-0605" H 9600 3350 50  0001 C CNN "Mfc"
+	1    9600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F63E695
+P 6300 2300
+AR Path="/5F6162C4/5F63E695" Ref="R?"  Part="1" 
+AR Path="/5F5F1150/5F5FA99D/5F63E695" Ref="R27"  Part="1" 
+F 0 "R27" H 6370 2346 50  0000 L CNN
+F 1 "10kOhm" H 6370 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6230 2300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf" H 6300 2300 50  0001 C CNN
+F 4 "C17414" H 6300 2300 50  0001 C CNN "LCSC"
+F 5 "0805W8F1002T5E" H 6300 2300 50  0001 C CNN "Mfc"
+	1    6300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F63EC0F
+P 6300 2800
+AR Path="/5F6162C4/5F63EC0F" Ref="R?"  Part="1" 
+AR Path="/5F5F1150/5F5FA99D/5F63EC0F" Ref="R28"  Part="1" 
+F 0 "R28" H 6370 2846 50  0000 L CNN
+F 1 "10kOhm" H 6370 2755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6230 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf" H 6300 2800 50  0001 C CNN
+F 4 "C17414" H 6300 2800 50  0001 C CNN "LCSC"
+F 5 "0805W8F1002T5E" H 6300 2800 50  0001 C CNN "Mfc"
+	1    6300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F63F275
+P 6300 3300
+AR Path="/5F6162C4/5F63F275" Ref="R?"  Part="1" 
+AR Path="/5F5F1150/5F5FA99D/5F63F275" Ref="R29"  Part="1" 
+F 0 "R29" H 6370 3346 50  0000 L CNN
+F 1 "10kOhm" H 6370 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6230 3300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf" H 6300 3300 50  0001 C CNN
+F 4 "C17414" H 6300 3300 50  0001 C CNN "LCSC"
+F 5 "0805W8F1002T5E" H 6300 3300 50  0001 C CNN "Mfc"
+	1    6300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F63F95B
+P 6300 3800
+AR Path="/5F6162C4/5F63F95B" Ref="R?"  Part="1" 
+AR Path="/5F5F1150/5F5FA99D/5F63F95B" Ref="R30"  Part="1" 
+F 0 "R30" H 6370 3846 50  0000 L CNN
+F 1 "10kOhm" H 6370 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6230 3800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf" H 6300 3800 50  0001 C CNN
+F 4 "C17414" H 6300 3800 50  0001 C CNN "LCSC"
+F 5 "0805W8F1002T5E" H 6300 3800 50  0001 C CNN "Mfc"
+	1    6300 3800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 3200 5800 2500
+	9600 3200 9600 2350
 Wire Wire Line
-	5800 2500 7650 2500
+	9600 2350 7650 2350
+Connection ~ 7650 2350
 Wire Wire Line
-	5800 3500 5800 4200
+	7650 2350 7650 2500
 Wire Wire Line
-	5800 4200 7500 4200
+	9600 4350 7500 4350
+Wire Wire Line
+	9600 3500 9600 4350
+Connection ~ 7500 4350
+Wire Wire Line
+	7500 4350 7500 4200
+Wire Wire Line
+	6850 2600 7050 2600
+Wire Wire Line
+	6300 2450 6300 2500
+Wire Wire Line
+	6300 2500 7050 2500
+Wire Wire Line
+	7050 2500 7050 2600
+Connection ~ 7050 2600
+Wire Wire Line
+	7050 2600 8000 2600
+Wire Wire Line
+	6300 2950 6300 3000
+Wire Wire Line
+	6300 3000 7050 3000
+Wire Wire Line
+	7050 3000 7050 3100
+Connection ~ 7050 3100
+Wire Wire Line
+	7050 3100 8000 3100
+Wire Wire Line
+	6300 2150 6300 2100
+Wire Wire Line
+	6300 2100 6150 2100
+Wire Wire Line
+	6150 2100 6150 2000
+Wire Wire Line
+	6150 2000 7150 2000
+Wire Wire Line
+	7150 2000 7150 2350
+Wire Wire Line
+	7150 2350 7650 2350
+Wire Wire Line
+	6150 2100 6150 2600
+Wire Wire Line
+	6150 3650 6300 3650
+Connection ~ 6150 2100
+Wire Wire Line
+	6300 3950 6300 4000
+Wire Wire Line
+	6300 4000 7050 4000
+Wire Wire Line
+	7050 4000 7050 4100
+Connection ~ 7050 4100
+Wire Wire Line
+	7050 4100 8000 4100
+Wire Wire Line
+	6300 3150 6300 3100
+Wire Wire Line
+	6300 3100 6150 3100
+Connection ~ 6150 3100
+Wire Wire Line
+	6150 3100 6150 3650
+Wire Wire Line
+	6300 3450 6300 3500
+Wire Wire Line
+	6300 3500 7050 3500
+Wire Wire Line
+	7050 3500 7050 3600
+Connection ~ 7050 3600
+Wire Wire Line
+	7050 3600 8000 3600
+Wire Wire Line
+	6300 2650 6300 2600
+Wire Wire Line
+	6300 2600 6150 2600
+Connection ~ 6150 2600
+Wire Wire Line
+	6150 2600 6150 3100
+$Comp
+L Connector:Screw_Terminal_01x03 J4
+U 1 1 5F5FDAC4
+P 8200 4100
+F 0 "J4" H 8280 4142 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 8280 4051 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical" H 8200 4100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912251634_Ningbo-Kangnex-Elec-WJ2EDGVC-5-08-3P_C8412.pdf" H 8200 4100 50  0001 C CNN
+F 4 "C8412" H 8500 4150 50  0000 C CNN "LCSC"
+F 5 "WJ2EDGVC-5.08-3P" H 8200 4100 50  0001 C CNN "Mfc"
+	1    8200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J3
+U 1 1 5F5FD6BF
+P 8200 3600
+F 0 "J3" H 8280 3642 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 8280 3551 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical" H 8200 3600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912251634_Ningbo-Kangnex-Elec-WJ2EDGVC-5-08-3P_C8412.pdf" H 8200 3600 50  0001 C CNN
+F 4 "C8412" H 8500 3650 50  0000 C CNN "LCSC"
+F 5 "WJ2EDGVC-5.08-3P" H 8200 3600 50  0001 C CNN "Mfc"
+	1    8200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J2
+U 1 1 5F5FD171
+P 8200 3100
+F 0 "J2" H 8280 3142 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 8280 3051 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 8200 3100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf" H 8200 3100 50  0001 C CNN
+F 4 "C8377" H 8500 3150 50  0000 C CNN "LCSC"
+F 5 "WJ2EDGRC-5.08-3P" H 8800 3150 50  0001 C CNN "Mfc"
+	1    8200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J1
+U 1 1 5F5FC144
+P 8200 2600
+F 0 "J1" H 8280 2642 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 8280 2551 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 8200 2600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf" H 8200 2600 50  0001 C CNN
+F 4 "C8377" H 8500 2650 50  0000 C CNN "LCSC"
+F 5 "WJ2EDGRC-5.08-3P" H 8800 2650 50  0001 C CNN "Mfc"
+	1    8200 2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

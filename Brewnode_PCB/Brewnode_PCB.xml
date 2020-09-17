@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Program Files\KiCad\share\kicad\Brewnode\Brewnode_PCB\Brewnode_PCB.sch</source>
-    <date>2020-09-16 23:47:58</date>
+    <date>2020-09-17 21:36:50</date>
     <tool>Eeschema (5.1.6)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -112,6 +112,7 @@
   <components>
     <comp ref="D2">
       <value>LED_1206</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810231512_Lite-On-LTST-C150KGKT_C125085.pdf</datasheet>
       <fields>
         <field name="LCSC">C125085</field>
@@ -123,6 +124,7 @@
     </comp>
     <comp ref="D1">
       <value>LED_1206</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810231512_Lite-On-LTST-C150KGKT_C125085.pdf</datasheet>
       <fields>
         <field name="LCSC">C125085</field>
@@ -134,6 +136,7 @@
     </comp>
     <comp ref="F1">
       <value>500mA</value>
+      <footprint>Fuse:Fuse_0402_1005Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1808141123_Littelfuse-0435-500KRHF_C206945.pdf</datasheet>
       <fields>
         <field name="LCSC">C206945</field>
@@ -145,6 +148,7 @@
     </comp>
     <comp ref="F2">
       <value>500mA</value>
+      <footprint>Fuse:Fuse_0402_1005Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1808141123_Littelfuse-0435-500KRHF_C206945.pdf</datasheet>
       <fields>
         <field name="LCSC">C206945</field>
@@ -223,10 +227,10 @@
     </comp>
     <comp ref="J3">
       <value>Screw_Terminal_01x03</value>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251634_Ningbo-Kangnex-Elec-WJ2EDGVC-5-08-3P_C8412.pdf</datasheet>
       <fields>
-        <field name="LCSC">C8377</field>
-        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+        <field name="LCSC">C8412</field>
+        <field name="Mfc">WJ2EDGVC-5.08-3P</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/IO Expander/IOExp_Inputs/" tstamps="/5F5F1150/5F5FA99D/"/>
@@ -234,10 +238,10 @@
     </comp>
     <comp ref="J4">
       <value>Screw_Terminal_01x03</value>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251634_Ningbo-Kangnex-Elec-WJ2EDGVC-5-08-3P_C8412.pdf</datasheet>
       <fields>
-        <field name="LCSC">C8377</field>
-        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+        <field name="LCSC">C8412</field>
+        <field name="Mfc">WJ2EDGVC-5.08-3P</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/IO Expander/IOExp_Inputs/" tstamps="/5F5F1150/5F5FA99D/"/>
@@ -255,6 +259,50 @@
       <sheetpath names="/IO Expander/IOExp_Inputs/" tstamps="/5F5F1150/5F5FA99D/"/>
       <tstamp>5F69BB32</tstamp>
     </comp>
+    <comp ref="R27">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/IO Expander/IOExp_Inputs/" tstamps="/5F5F1150/5F5FA99D/"/>
+      <tstamp>5F63E695</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/IO Expander/IOExp_Inputs/" tstamps="/5F5F1150/5F5FA99D/"/>
+      <tstamp>5F63EC0F</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/IO Expander/IOExp_Inputs/" tstamps="/5F5F1150/5F5FA99D/"/>
+      <tstamp>5F63F275</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10kOhm</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Mfc">0805W8F1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/IO Expander/IOExp_Inputs/" tstamps="/5F5F1150/5F5FA99D/"/>
+      <tstamp>5F63F95B</tstamp>
+    </comp>
     <comp ref="K1">
       <value>SANYOU_SRD_Form_C</value>
       <footprint>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</footprint>
@@ -269,6 +317,7 @@
     </comp>
     <comp ref="D3">
       <value>SMA</value>
+      <footprint>Diode_SMD:D_SMA-SMB_Universal_Handsoldering</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810311713_MDD-Microdiode-Electronics-M7_C95872.pdf</datasheet>
       <fields>
         <field name="LCSC">C95872</field>
@@ -326,6 +375,7 @@
     </comp>
     <comp ref="D5">
       <value>SMA</value>
+      <footprint>Diode_SMD:D_SMA-SMB_Universal_Handsoldering</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810311713_MDD-Microdiode-Electronics-M7_C95872.pdf</datasheet>
       <fields>
         <field name="LCSC">C95872</field>
@@ -360,10 +410,10 @@
     </comp>
     <comp ref="J7">
       <value>Screw_Terminal_01x03</value>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251634_Ningbo-Kangnex-Elec-WJ2EDGVC-5-08-3P_C8412.pdf</datasheet>
       <fields>
-        <field name="LCSC">C8377</field>
-        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+        <field name="LCSC">C8412</field>
+        <field name="Mfc">WJ2EDGVC-5.08-3P</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
@@ -383,6 +433,7 @@
     </comp>
     <comp ref="D4">
       <value>SMA</value>
+      <footprint>Diode_SMD:D_SMA-SMB_Universal_Handsoldering</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810311713_MDD-Microdiode-Electronics-M7_C95872.pdf</datasheet>
       <fields>
         <field name="LCSC">C95872</field>
@@ -440,6 +491,7 @@
     </comp>
     <comp ref="D6">
       <value>SMA</value>
+      <footprint>Diode_SMD:D_SMA-SMB_Universal_Handsoldering</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810311713_MDD-Microdiode-Electronics-M7_C95872.pdf</datasheet>
       <fields>
         <field name="LCSC">C95872</field>
@@ -474,10 +526,10 @@
     </comp>
     <comp ref="J8">
       <value>Screw_Terminal_01x03</value>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251634_Ningbo-Kangnex-Elec-WJ2EDGVC-5-08-3P_C8412.pdf</datasheet>
       <fields>
-        <field name="LCSC">C8377</field>
-        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+        <field name="LCSC">C8412</field>
+        <field name="Mfc">WJ2EDGVC-5.08-3P</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/IO Expander/IOExp_Relays/" tstamps="/5F5F1150/5F5FAAA5/"/>
@@ -485,6 +537,7 @@
     </comp>
     <comp ref="C3">
       <value>220uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_Lelon-VUA221M1ATR-0810_C249801.pdf</datasheet>
       <fields>
         <field name="LCSC">C249801</field>
@@ -530,10 +583,10 @@
     </comp>
     <comp ref="J11">
       <value>Screw_Terminal_01x03</value>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251634_Ningbo-Kangnex-Elec-WJ2EDGVC-5-08-3P_C8412.pdf</datasheet>
       <fields>
-        <field name="LCSC">C8377</field>
-        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+        <field name="LCSC">C8412</field>
+        <field name="Mfc">WJ2EDGVC-5.08-3P</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
@@ -541,10 +594,10 @@
     </comp>
     <comp ref="J12">
       <value>Screw_Terminal_01x03</value>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251634_Ningbo-Kangnex-Elec-WJ2EDGVC-5-08-3P_C8412.pdf</datasheet>
       <fields>
-        <field name="LCSC">C8377</field>
-        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+        <field name="LCSC">C8412</field>
+        <field name="Mfc">WJ2EDGVC-5.08-3P</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/ADC/" tstamps="/5F66CC9A/"/>
@@ -564,6 +617,7 @@
     </comp>
     <comp ref="C5">
       <value>47uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.3</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_Lelon-VEZ470M1CTR-0605_C249778.pdf</datasheet>
       <fields>
         <field name="LCSC">C249778</field>
@@ -778,7 +832,7 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
       <fields>
         <field name="LCSC">C17414</field>
-        <field name="Mfc">0805W8F1000T5E</field>
+        <field name="Mfc">0805W8F1002T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
@@ -789,7 +843,7 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
       <fields>
         <field name="LCSC">C17414</field>
-        <field name="Mfc">0805W8F1000T5E</field>
+        <field name="Mfc">0805W8F1002T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
@@ -800,7 +854,7 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
       <fields>
         <field name="LCSC">C17414</field>
-        <field name="Mfc">0805W8F1000T5E</field>
+        <field name="Mfc">0805W8F1002T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
@@ -811,7 +865,7 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
       <fields>
         <field name="LCSC">C17414</field>
-        <field name="Mfc">0805W8F1000T5E</field>
+        <field name="Mfc">0805W8F1002T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
@@ -822,7 +876,7 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
       <fields>
         <field name="LCSC">C17414</field>
-        <field name="Mfc">0805W8F1000T5E</field>
+        <field name="Mfc">0805W8F1002T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
@@ -833,7 +887,7 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
       <fields>
         <field name="LCSC">C17414</field>
-        <field name="Mfc">0805W8F1000T5E</field>
+        <field name="Mfc">0805W8F1002T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
@@ -844,7 +898,7 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
       <fields>
         <field name="LCSC">C17414</field>
-        <field name="Mfc">0805W8F1000T5E</field>
+        <field name="Mfc">0805W8F1002T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
@@ -855,7 +909,7 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810271610_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
       <fields>
         <field name="LCSC">C17414</field>
-        <field name="Mfc">0805W8F1000T5E</field>
+        <field name="Mfc">0805W8F1002T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Lvl_Shifter/" tstamps="/5F6162C4/"/>
@@ -885,10 +939,10 @@
     </comp>
     <comp ref="J15">
       <value>Screw_Terminal_01x03</value>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251634_Ningbo-Kangnex-Elec-WJ2EDGVC-5-08-3P_C8412.pdf</datasheet>
       <fields>
-        <field name="LCSC">C8377</field>
-        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+        <field name="LCSC">C8412</field>
+        <field name="Mfc">WJ2EDGVC-5.08-3P</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/Digital_Sensors/" tstamps="/5F66FC6A/"/>
@@ -896,10 +950,10 @@
     </comp>
     <comp ref="J16">
       <value>Screw_Terminal_01x03</value>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912251634_Ningbo-Kangnex-Elec-WJ2EDGVC-5-08-3P_C8412.pdf</datasheet>
       <fields>
-        <field name="LCSC">C8377</field>
-        <field name="Mfc">WJ2EDGRC-5.08-3P</field>
+        <field name="LCSC">C8412</field>
+        <field name="Mfc">WJ2EDGVC-5.08-3P</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/Digital_Sensors/" tstamps="/5F66FC6A/"/>
@@ -907,6 +961,7 @@
     </comp>
     <comp ref="C6">
       <value>47uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.3</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_Lelon-VEZ470M1CTR-0605_C249778.pdf</datasheet>
       <fields>
         <field name="LCSC">C249778</field>
@@ -1353,72 +1408,72 @@
   </libraries>
   <nets>
     <net code="1" name="Net-(D2-Pad1)">
-      <node ref="D2" pin="1"/>
       <node ref="R2" pin="1"/>
+      <node ref="D2" pin="1"/>
     </net>
     <net code="2" name="GND">
-      <node ref="JP2" pin="2"/>
-      <node ref="JP4" pin="2"/>
-      <node ref="U1" pin="8"/>
-      <node ref="U2" pin="1"/>
-      <node ref="JP6" pin="2"/>
-      <node ref="J11" pin="3"/>
-      <node ref="J10" pin="3"/>
-      <node ref="J9" pin="3"/>
-      <node ref="U2" pin="3"/>
-      <node ref="JP8" pin="2"/>
-      <node ref="J12" pin="3"/>
-      <node ref="U1" pin="1"/>
-      <node ref="U1" pin="2"/>
-      <node ref="U1" pin="3"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C4" pin="2"/>
+      <node ref="K4" pin="2"/>
+      <node ref="D6" pin="2"/>
       <node ref="J17" pin="4"/>
       <node ref="J17" pin="5"/>
       <node ref="J17" pin="6"/>
-      <node ref="K4" pin="2"/>
-      <node ref="K1" pin="2"/>
-      <node ref="D3" pin="2"/>
-      <node ref="D6" pin="2"/>
-      <node ref="K3" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="D4" pin="2"/>
-      <node ref="K2" pin="2"/>
-      <node ref="D5" pin="2"/>
-      <node ref="C6" pin="2"/>
       <node ref="J13" pin="3"/>
+      <node ref="K2" pin="2"/>
       <node ref="J14" pin="3"/>
-      <node ref="J15" pin="3"/>
-      <node ref="J16" pin="3"/>
-      <node ref="C2" pin="2"/>
-      <node ref="J1" pin="3"/>
+      <node ref="C6" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="U1" pin="1"/>
       <node ref="J2" pin="3"/>
-      <node ref="J3" pin="3"/>
-      <node ref="J4" pin="3"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J16" pin="3"/>
+      <node ref="R2" pin="2"/>
       <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J15" pin="3"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J4" pin="3"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="JP6" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="J10" pin="3"/>
+      <node ref="JP4" pin="2"/>
       <node ref="R1" pin="2"/>
+      <node ref="J11" pin="3"/>
+      <node ref="J12" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="K3" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C5" pin="2"/>
+      <node ref="JP8" pin="2"/>
+      <node ref="K1" pin="2"/>
+      <node ref="J9" pin="3"/>
     </net>
     <net code="3" name="Net-(D1-Pad1)">
       <node ref="R1" pin="1"/>
       <node ref="D1" pin="1"/>
     </net>
     <net code="4" name="+3V3">
-      <node ref="Q7" pin="1"/>
-      <node ref="Q5" pin="1"/>
-      <node ref="Q6" pin="1"/>
-      <node ref="Q8" pin="1"/>
-      <node ref="R15" pin="1"/>
-      <node ref="R16" pin="1"/>
-      <node ref="R18" pin="1"/>
       <node ref="R17" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="Q8" pin="1"/>
+      <node ref="Q7" pin="1"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="R16" pin="1"/>
       <node ref="D2" pin="2"/>
       <node ref="F2" pin="1"/>
     </net>
     <net code="5" name="/Digital_Sensors/Port2">
       <node ref="R24" pin="2"/>
-      <node ref="J14" pin="2"/>
       <node ref="J17" pin="14"/>
+      <node ref="J14" pin="2"/>
     </net>
     <net code="6" name="/Digital_Sensors/Port1">
       <node ref="R23" pin="2"/>
@@ -1426,8 +1481,8 @@
       <node ref="J13" pin="2"/>
     </net>
     <net code="7" name="/ADC/5V_ADC_SDA">
-      <node ref="U2" pin="9"/>
       <node ref="Q6" pin="3"/>
+      <node ref="U2" pin="9"/>
       <node ref="U1" pin="15"/>
       <node ref="R20" pin="2"/>
     </net>
@@ -1437,54 +1492,58 @@
       <node ref="Q7" pin="3"/>
     </net>
     <net code="9" name="+5V">
-      <node ref="R23" pin="1"/>
-      <node ref="J9" pin="1"/>
-      <node ref="U2" pin="8"/>
-      <node ref="J11" pin="1"/>
-      <node ref="J12" pin="1"/>
-      <node ref="J16" pin="1"/>
-      <node ref="J15" pin="1"/>
       <node ref="J14" pin="1"/>
-      <node ref="R25" pin="1"/>
       <node ref="J13" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="J1" pin="1"/>
-      <node ref="J2" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="J3" pin="1"/>
-      <node ref="R3" pin="1"/>
-      <node ref="Q1" pin="3"/>
-      <node ref="J4" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="Q4" pin="3"/>
-      <node ref="F1" pin="1"/>
       <node ref="J10" pin="1"/>
-      <node ref="D1" pin="2"/>
-      <node ref="R6" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="J9" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J3" pin="1"/>
       <node ref="R26" pin="1"/>
-      <node ref="Q2" pin="3"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="J1" pin="1"/>
       <node ref="R4" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q2" pin="3"/>
       <node ref="R5" pin="1"/>
       <node ref="Q3" pin="3"/>
-      <node ref="R24" pin="1"/>
-      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J16" pin="1"/>
+      <node ref="J15" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R29" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R19" pin="1"/>
       <node ref="R21" pin="1"/>
       <node ref="R22" pin="1"/>
+      <node ref="C5" pin="1"/>
       <node ref="C4" pin="1"/>
-      <node ref="R20" pin="1"/>
+      <node ref="F1" pin="1"/>
+      <node ref="D1" pin="2"/>
       <node ref="C1" pin="1"/>
       <node ref="U1" pin="16"/>
-      <node ref="R19" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="J12" pin="1"/>
     </net>
     <net code="10" name="/Digital_Sensors/Port3">
-      <node ref="J15" pin="2"/>
       <node ref="R25" pin="2"/>
       <node ref="J17" pin="13"/>
+      <node ref="J15" pin="2"/>
     </net>
     <net code="11" name="/MCU_Connector/3V3_SDA">
       <node ref="R16" pin="2"/>
-      <node ref="Q6" pin="2"/>
       <node ref="J17" pin="10"/>
+      <node ref="Q6" pin="2"/>
     </net>
     <net code="12" name="/MCU_Connector/3V3_SCL">
       <node ref="J17" pin="11"/>
@@ -1492,19 +1551,19 @@
       <node ref="R15" pin="2"/>
     </net>
     <net code="13" name="/MCU_Connector/3V3">
-      <node ref="F2" pin="2"/>
       <node ref="J17" pin="7"/>
+      <node ref="F2" pin="2"/>
     </net>
     <net code="14" name="/MCU_Connector/5V">
-      <node ref="J17" pin="1"/>
-      <node ref="F1" pin="2"/>
       <node ref="J17" pin="3"/>
       <node ref="J17" pin="2"/>
+      <node ref="F1" pin="2"/>
+      <node ref="J17" pin="1"/>
     </net>
     <net code="15" name="/Digital_Sensors/Port4">
       <node ref="R26" pin="2"/>
-      <node ref="J16" pin="2"/>
       <node ref="J17" pin="12"/>
+      <node ref="J16" pin="2"/>
     </net>
     <net code="16" name="/ADC/5V_ADC_RDY">
       <node ref="Q8" pin="3"/>
@@ -1513,186 +1572,190 @@
     </net>
     <net code="17" name="/ADC/5V_ADC_SCL">
       <node ref="Q5" pin="3"/>
-      <node ref="U2" pin="10"/>
-      <node ref="R19" pin="2"/>
       <node ref="U1" pin="14"/>
+      <node ref="R19" pin="2"/>
+      <node ref="U2" pin="10"/>
     </net>
     <net code="18" name="/MCU_Connector/3V3_ADC_Int">
+      <node ref="R18" pin="2"/>
       <node ref="J17" pin="8"/>
       <node ref="Q8" pin="2"/>
-      <node ref="R18" pin="2"/>
     </net>
     <net code="19" name="/MCU_Connector/3V3_IOExp_Int">
+      <node ref="J17" pin="9"/>
       <node ref="R17" pin="2"/>
       <node ref="Q7" pin="2"/>
-      <node ref="J17" pin="9"/>
     </net>
     <net code="20" name="/IO Expander/IOExp_Inputs/Input_4">
       <node ref="J4" pin="2"/>
       <node ref="U1" pin="7"/>
+      <node ref="R30" pin="2"/>
     </net>
     <net code="21" name="/IO Expander/IOExp_Inputs/Input_3">
-      <node ref="U1" pin="6"/>
       <node ref="J3" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R29" pin="2"/>
     </net>
     <net code="22" name="/IO Expander/IOExp_Inputs/Input_2">
-      <node ref="U1" pin="5"/>
       <node ref="J2" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="U1" pin="5"/>
     </net>
     <net code="23" name="/IO Expander/IOExp_Inputs/Input_1">
       <node ref="J1" pin="2"/>
+      <node ref="R27" pin="2"/>
       <node ref="U1" pin="4"/>
     </net>
     <net code="24" name="/IO Expander/IOExp_Relays/Output_4">
-      <node ref="Q4" pin="1"/>
-      <node ref="R6" pin="2"/>
       <node ref="U1" pin="12"/>
+      <node ref="R6" pin="2"/>
+      <node ref="Q4" pin="1"/>
     </net>
     <net code="25" name="/IO Expander/IOExp_Relays/Output_3">
       <node ref="Q2" pin="1"/>
-      <node ref="R4" pin="2"/>
       <node ref="U1" pin="11"/>
+      <node ref="R4" pin="2"/>
     </net>
     <net code="26" name="/IO Expander/IOExp_Relays/Output_2">
+      <node ref="U1" pin="10"/>
       <node ref="Q3" pin="1"/>
       <node ref="R5" pin="2"/>
-      <node ref="U1" pin="10"/>
     </net>
     <net code="27" name="/IO Expander/IOExp_Relays/Output_1">
-      <node ref="U1" pin="9"/>
-      <node ref="R3" pin="2"/>
       <node ref="Q1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="9"/>
     </net>
     <net code="28" name="Net-(J17-Pad16)">
       <node ref="J17" pin="16"/>
     </net>
-    <net code="29" name="/ADC/AIN0">
-      <node ref="JP1" pin="2"/>
-      <node ref="R7" pin="2"/>
-      <node ref="R8" pin="1"/>
-      <node ref="U2" pin="4"/>
-    </net>
-    <net code="30" name="/ADC/AIN3">
-      <node ref="R14" pin="1"/>
-      <node ref="U2" pin="7"/>
-      <node ref="JP7" pin="2"/>
-      <node ref="R13" pin="2"/>
-    </net>
-    <net code="31" name="/ADC/AIN2">
-      <node ref="JP5" pin="2"/>
+    <net code="29" name="/ADC/AIN2">
+      <node ref="R12" pin="1"/>
       <node ref="R11" pin="2"/>
       <node ref="U2" pin="6"/>
-      <node ref="R12" pin="1"/>
+      <node ref="JP5" pin="2"/>
     </net>
-    <net code="32" name="/ADC/AIN1">
-      <node ref="U2" pin="5"/>
-      <node ref="JP3" pin="2"/>
+    <net code="30" name="/ADC/AIN3">
+      <node ref="JP7" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="31" name="/ADC/AIN1">
       <node ref="R9" pin="2"/>
+      <node ref="JP3" pin="2"/>
       <node ref="R10" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="32" name="/ADC/AIN0">
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="U2" pin="4"/>
     </net>
     <net code="33" name="/ADC/IN_AIN0">
       <node ref="R7" pin="1"/>
-      <node ref="J9" pin="2"/>
       <node ref="JP1" pin="1"/>
+      <node ref="J9" pin="2"/>
     </net>
-    <net code="34" name="/ADC/IN_AIN1">
-      <node ref="J10" pin="2"/>
-      <node ref="R9" pin="1"/>
-      <node ref="JP3" pin="1"/>
+    <net code="34" name="Net-(JP2-Pad1)">
+      <node ref="JP2" pin="1"/>
+      <node ref="R8" pin="2"/>
     </net>
-    <net code="35" name="/ADC/IN_AIN2">
-      <node ref="JP5" pin="1"/>
-      <node ref="R11" pin="1"/>
-      <node ref="J11" pin="2"/>
-    </net>
-    <net code="36" name="/ADC/IN_AIN3">
-      <node ref="J12" pin="2"/>
+    <net code="35" name="/ADC/IN_AIN3">
       <node ref="R13" pin="1"/>
+      <node ref="J12" pin="2"/>
       <node ref="JP7" pin="1"/>
     </net>
-    <net code="37" name="Net-(JP4-Pad1)">
-      <node ref="JP4" pin="1"/>
-      <node ref="R10" pin="2"/>
+    <net code="36" name="/ADC/IN_AIN2">
+      <node ref="JP5" pin="1"/>
+      <node ref="J11" pin="2"/>
+      <node ref="R11" pin="1"/>
     </net>
-    <net code="38" name="Net-(JP2-Pad1)">
-      <node ref="R8" pin="2"/>
-      <node ref="JP2" pin="1"/>
+    <net code="37" name="/ADC/IN_AIN1">
+      <node ref="JP3" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="J10" pin="2"/>
     </net>
-    <net code="39" name="Net-(JP8-Pad1)">
-      <node ref="R14" pin="2"/>
-      <node ref="JP8" pin="1"/>
-    </net>
-    <net code="40" name="Net-(JP6-Pad1)">
+    <net code="38" name="Net-(JP6-Pad1)">
       <node ref="JP6" pin="1"/>
       <node ref="R12" pin="2"/>
     </net>
-    <net code="41" name="Net-(J8-Pad1)">
-      <node ref="K4" pin="4"/>
-      <node ref="J8" pin="1"/>
+    <net code="39" name="Net-(JP4-Pad1)">
+      <node ref="JP4" pin="1"/>
+      <node ref="R10" pin="2"/>
     </net>
-    <net code="42" name="Net-(D6-Pad1)">
-      <node ref="K4" pin="5"/>
-      <node ref="Q4" pin="2"/>
-      <node ref="D6" pin="1"/>
+    <net code="40" name="Net-(JP8-Pad1)">
+      <node ref="JP8" pin="1"/>
+      <node ref="R14" pin="2"/>
     </net>
-    <net code="43" name="Net-(J8-Pad3)">
-      <node ref="K4" pin="3"/>
-      <node ref="J8" pin="3"/>
+    <net code="41" name="Net-(J6-Pad2)">
+      <node ref="K2" pin="1"/>
+      <node ref="J6" pin="2"/>
     </net>
-    <net code="44" name="Net-(J8-Pad2)">
-      <node ref="J8" pin="2"/>
-      <node ref="K4" pin="1"/>
-    </net>
-    <net code="45" name="Net-(J6-Pad3)">
-      <node ref="J6" pin="3"/>
-      <node ref="K2" pin="3"/>
-    </net>
-    <net code="46" name="Net-(D4-Pad1)">
+    <net code="42" name="Net-(D4-Pad1)">
+      <node ref="K2" pin="5"/>
       <node ref="Q2" pin="2"/>
       <node ref="D4" pin="1"/>
-      <node ref="K2" pin="5"/>
     </net>
-    <net code="47" name="Net-(J6-Pad1)">
+    <net code="43" name="Net-(J6-Pad1)">
       <node ref="J6" pin="1"/>
       <node ref="K2" pin="4"/>
     </net>
-    <net code="48" name="Net-(J6-Pad2)">
-      <node ref="J6" pin="2"/>
-      <node ref="K2" pin="1"/>
+    <net code="44" name="Net-(J6-Pad3)">
+      <node ref="J6" pin="3"/>
+      <node ref="K2" pin="3"/>
     </net>
-    <net code="49" name="Net-(D3-Pad1)">
-      <node ref="K1" pin="5"/>
-      <node ref="D3" pin="1"/>
-      <node ref="Q1" pin="2"/>
-    </net>
-    <net code="50" name="Net-(J5-Pad1)">
-      <node ref="J5" pin="1"/>
-      <node ref="K1" pin="4"/>
-    </net>
-    <net code="51" name="Net-(J5-Pad3)">
-      <node ref="K1" pin="3"/>
-      <node ref="J5" pin="3"/>
-    </net>
-    <net code="52" name="Net-(J5-Pad2)">
-      <node ref="J5" pin="2"/>
-      <node ref="K1" pin="1"/>
-    </net>
-    <net code="53" name="Net-(D5-Pad1)">
+    <net code="45" name="Net-(D5-Pad1)">
+      <node ref="Q3" pin="2"/>
       <node ref="D5" pin="1"/>
       <node ref="K3" pin="5"/>
-      <node ref="Q3" pin="2"/>
     </net>
-    <net code="54" name="Net-(J7-Pad1)">
+    <net code="46" name="Net-(J7-Pad1)">
       <node ref="K3" pin="4"/>
       <node ref="J7" pin="1"/>
     </net>
-    <net code="55" name="Net-(J7-Pad2)">
+    <net code="47" name="Net-(J7-Pad3)">
+      <node ref="K3" pin="3"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="48" name="Net-(J7-Pad2)">
       <node ref="J7" pin="2"/>
       <node ref="K3" pin="1"/>
     </net>
-    <net code="56" name="Net-(J7-Pad3)">
-      <node ref="J7" pin="3"/>
-      <node ref="K3" pin="3"/>
+    <net code="49" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="K1" pin="1"/>
+    </net>
+    <net code="50" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3"/>
+      <node ref="K1" pin="3"/>
+    </net>
+    <net code="51" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="K1" pin="4"/>
+    </net>
+    <net code="52" name="Net-(D3-Pad1)">
+      <node ref="Q1" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="K1" pin="5"/>
+    </net>
+    <net code="53" name="Net-(J8-Pad3)">
+      <node ref="J8" pin="3"/>
+      <node ref="K4" pin="3"/>
+    </net>
+    <net code="54" name="Net-(D6-Pad1)">
+      <node ref="K4" pin="5"/>
+      <node ref="D6" pin="1"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="55" name="Net-(J8-Pad1)">
+      <node ref="K4" pin="4"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="56" name="Net-(J8-Pad2)">
+      <node ref="K4" pin="1"/>
+      <node ref="J8" pin="2"/>
     </net>
   </nets>
 </export>
