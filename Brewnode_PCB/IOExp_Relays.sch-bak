@@ -618,9 +618,11 @@ Wire Wire Line
 	7350 4500 7050 4500
 Connection ~ 7350 4500
 $Comp
-L Device:CP C3
+L Device:C_Polarized C3
 U 1 1 5F69DC17
 P 5850 3400
+AR Path="/5F69DC17" Ref="C3"  Part="1" 
+AR Path="/5F5F1150/5F5FAAA5/5F69DC17" Ref="C3"  Part="1" 
 F 0 "C3" H 5968 3446 50  0000 L CNN
 F 1 "220uF" H 5968 3355 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_8x10" H 5888 3250 50  0001 C CNN

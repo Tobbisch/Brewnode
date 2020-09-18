@@ -223,9 +223,11 @@ AIN2
 Text Label 5200 3200 0    50   ~ 0
 AIN3
 $Comp
-L Device:CP C5
+L Device:C_Polarized C5
 U 1 1 5F69915C
 P 7500 2850
+AR Path="/5F69915C" Ref="C5"  Part="1" 
+AR Path="/5F66CC9A/5F69915C" Ref="C5"  Part="1" 
 F 0 "C5" H 7618 2896 50  0000 L CNN
 F 1 "47uF" H 7618 2805 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 7538 2700 50  0001 C CNN

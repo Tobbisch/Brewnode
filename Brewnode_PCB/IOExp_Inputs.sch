@@ -88,9 +88,11 @@ Wire Wire Line
 Wire Wire Line
 	6850 4100 7050 4100
 $Comp
-L Device:CP C2
+L Device:C_Polarized C2
 U 1 1 5F69BB32
 P 9600 3350
+AR Path="/5F69BB32" Ref="C2"  Part="1" 
+AR Path="/5F5F1150/5F5FA99D/5F69BB32" Ref="C2"  Part="1" 
 F 0 "C2" H 9718 3396 50  0000 L CNN
 F 1 "47uF" H 9718 3305 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 9638 3200 50  0001 C CNN

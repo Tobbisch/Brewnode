@@ -134,9 +134,11 @@ Wire Wire Line
 	8050 3200 8050 3700
 Connection ~ 8050 3700
 $Comp
-L Device:CP C6
+L Device:C_Polarized C6
 U 1 1 5F679881
 P 10000 3800
+AR Path="/5F679881" Ref="C6"  Part="1" 
+AR Path="/5F66FC6A/5F679881" Ref="C6"  Part="1" 
 F 0 "C6" H 10118 3846 50  0000 L CNN
 F 1 "47uF" H 10118 3755 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 10038 3650 50  0001 C CNN
