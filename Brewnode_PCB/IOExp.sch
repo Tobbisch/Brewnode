@@ -89,8 +89,6 @@ Wire Wire Line
 	4150 4250 4150 5050
 Text HLabel 3650 4550 0    50   Output ~ 0
 IOExp_Int_5V
-Wire Wire Line
-	3650 4550 4400 4550
 $Sheet
 S 7850 3200 850  500 
 U 5F5FA99D
@@ -184,4 +182,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 5050 4150 5050
 Connection ~ 4150 5050
+Wire Wire Line
+	4400 4550 3650 4550
 $EndSCHEMATC

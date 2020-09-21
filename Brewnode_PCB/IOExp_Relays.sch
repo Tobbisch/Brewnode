@@ -99,12 +99,6 @@ Wire Wire Line
 	4450 2800 4450 2250
 Wire Wire Line
 	4450 2250 3700 2250
-Wire Wire Line
-	3450 2050 3450 2150
-Wire Wire Line
-	3250 2150 3250 2000
-Wire Wire Line
-	3250 2000 3450 2000
 $Comp
 L Connector:Screw_Terminal_01x03 J5
 U 1 1 5F64B72A
@@ -122,12 +116,6 @@ Wire Wire Line
 	3700 1950 3850 1950
 Wire Wire Line
 	3700 2250 3700 1950
-Wire Wire Line
-	3450 2050 3850 2050
-Wire Wire Line
-	3450 2000 3450 1850
-Wire Wire Line
-	3450 1850 3850 1850
 Wire Wire Line
 	2350 2300 2350 2100
 Wire Wire Line
@@ -212,7 +200,7 @@ F 3 "" H 7850 3000 50  0001 C CNN
 	1    7850 3000
 	1    0    0    -1  
 $EndComp
-Text HLabel 7050 1850 0    50   BiDi ~ 0
+Text HLabel 2150 4500 0    50   BiDi ~ 0
 Output_2
 $Comp
 L Transistor_FET:FDN340P Q3
@@ -250,22 +238,16 @@ Wire Wire Line
 	9350 2800 9350 2250
 Wire Wire Line
 	9350 2250 8600 2250
-Wire Wire Line
-	8350 2050 8350 2150
-Wire Wire Line
-	8150 2150 8150 2000
-Wire Wire Line
-	8150 2000 8350 2000
 $Comp
 L Connector:Screw_Terminal_01x03 J7
 U 1 1 5F62CCE7
 P 8950 1950
 F 0 "J7" H 9030 1992 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 9030 1901 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical" H 8950 1950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912251634_Ningbo-Kangnex-Elec-WJ2EDGVC-5-08-3P_C8412.pdf" H 8950 1950 50  0001 C CNN
-F 4 "C8412" H 9250 2000 50  0000 C CNN "LCSC"
-F 5 "WJ2EDGVC-5.08-3P" H 8950 1950 50  0001 C CNN "Mfc"
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 8950 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf" H 8950 1950 50  0001 C CNN
+F 4 "C8377" H 9250 2000 50  0000 C CNN "LCSC"
+F 5 "WJ2EDGRC-5.08-3P" H 8950 1950 50  0001 C CNN "Mfc"
 	1    8950 1950
 	1    0    0    -1  
 $EndComp
@@ -273,12 +255,6 @@ Wire Wire Line
 	8600 1950 8750 1950
 Wire Wire Line
 	8600 2250 8600 1950
-Wire Wire Line
-	8350 2050 8750 2050
-Wire Wire Line
-	8350 2000 8350 1850
-Wire Wire Line
-	8350 1850 8750 1850
 Wire Wire Line
 	7250 2300 7250 2100
 Wire Wire Line
@@ -363,7 +339,7 @@ F 3 "" H 2950 5650 50  0001 C CNN
 	1    2950 5650
 	1    0    0    -1  
 $EndComp
-Text HLabel 2150 4500 0    50   BiDi ~ 0
+Text HLabel 7050 1850 0    50   BiDi ~ 0
 Output_3
 $Comp
 L Transistor_FET:FDN340P Q2
@@ -401,12 +377,6 @@ Wire Wire Line
 	4450 5450 4450 4900
 Wire Wire Line
 	4450 4900 3700 4900
-Wire Wire Line
-	3450 4700 3450 4800
-Wire Wire Line
-	3250 4800 3250 4650
-Wire Wire Line
-	3250 4650 3450 4650
 $Comp
 L Connector:Screw_Terminal_01x03 J6
 U 1 1 5F634ADD
@@ -424,12 +394,6 @@ Wire Wire Line
 	3700 4600 3850 4600
 Wire Wire Line
 	3700 4900 3700 4600
-Wire Wire Line
-	3450 4700 3850 4700
-Wire Wire Line
-	3450 4650 3450 4500
-Wire Wire Line
-	3450 4500 3850 4500
 Wire Wire Line
 	2350 4950 2350 4750
 Wire Wire Line
@@ -552,22 +516,16 @@ Wire Wire Line
 	9350 5450 9350 4900
 Wire Wire Line
 	9350 4900 8600 4900
-Wire Wire Line
-	8350 4700 8350 4800
-Wire Wire Line
-	8150 4800 8150 4650
-Wire Wire Line
-	8150 4650 8350 4650
 $Comp
 L Connector:Screw_Terminal_01x03 J8
 U 1 1 5F6409FE
 P 8950 4600
 F 0 "J8" H 9030 4642 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 9030 4551 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical" H 8950 4600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912251634_Ningbo-Kangnex-Elec-WJ2EDGVC-5-08-3P_C8412.pdf" H 8950 4600 50  0001 C CNN
-F 4 "C8412" H 9250 4650 50  0000 C CNN "LCSC"
-F 5 "WJ2EDGVC-5.08-3P" H 8950 4600 50  0001 C CNN "Mfc"
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 8950 4600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912251632_Ningbo-Kangnex-Elec-WJ2EDGRC-5-08-3P_C8377.pdf" H 8950 4600 50  0001 C CNN
+F 4 "C8377" H 9250 4650 50  0000 C CNN "LCSC"
+F 5 "WJ2EDGRC-5.08-3P" H 8950 4600 50  0001 C CNN "Mfc"
 	1    8950 4600
 	1    0    0    -1  
 $EndComp
@@ -575,12 +533,6 @@ Wire Wire Line
 	8600 4600 8750 4600
 Wire Wire Line
 	8600 4900 8600 4600
-Wire Wire Line
-	8350 4700 8750 4700
-Wire Wire Line
-	8350 4650 8350 4500
-Wire Wire Line
-	8350 4500 8750 4500
 Wire Wire Line
 	7250 4950 7250 4750
 Wire Wire Line
@@ -658,4 +610,36 @@ Wire Wire Line
 	5850 3550 5850 3700
 Wire Wire Line
 	5850 3250 5850 3100
+Wire Wire Line
+	8350 1850 8750 1850
+Wire Wire Line
+	8350 1850 8350 2150
+Wire Wire Line
+	8750 2050 8150 2050
+Wire Wire Line
+	8150 2050 8150 2150
+Wire Wire Line
+	8750 4700 8150 4700
+Wire Wire Line
+	8150 4700 8150 4800
+Wire Wire Line
+	8350 4800 8350 4500
+Wire Wire Line
+	8350 4500 8750 4500
+Wire Wire Line
+	3850 4700 3250 4700
+Wire Wire Line
+	3250 4700 3250 4800
+Wire Wire Line
+	3450 4800 3450 4500
+Wire Wire Line
+	3450 4500 3850 4500
+Wire Wire Line
+	3850 2050 3250 2050
+Wire Wire Line
+	3250 2050 3250 2150
+Wire Wire Line
+	3450 2150 3450 1850
+Wire Wire Line
+	3450 1850 3850 1850
 $EndSCHEMATC
