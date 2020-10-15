@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
 Title "BrewnodeV1"
-Date "2020-09-16"
-Rev "1.0"
+Date "2020-10-15"
+Rev "1.1"
 Comp "Halldin"
 Comment1 "IO Expander"
 Comment2 ""

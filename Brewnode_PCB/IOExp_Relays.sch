@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 8
 Title "BrewnodeV1"
-Date "2020-09-16"
-Rev "1.0"
+Date "2020-10-15"
+Rev "1.1"
 Comp "Halldin"
 Comment1 "IOExp_Relays"
 Comment2 ""
@@ -74,7 +74,7 @@ F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 2850 1850 50  0001 L
 F 4 "C75469" H 2850 1850 50  0001 C CNN "LCSC"
 F 5 "FDN340P" H 2850 1850 50  0001 C CNN "Mfc"
 	1    2850 1850
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R3
@@ -119,13 +119,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 2300 2350 2100
 Wire Wire Line
-	2350 2100 2950 2100
-Wire Wire Line
-	2950 2100 2950 2150
-Wire Wire Line
-	2950 2050 2950 2100
-Connection ~ 2950 2100
-Wire Wire Line
 	2350 2600 2350 2800
 Wire Wire Line
 	2350 2800 2950 2800
@@ -139,19 +132,13 @@ Wire Wire Line
 Wire Wire Line
 	2850 1550 2950 1550
 Wire Wire Line
-	2950 1550 2950 1650
-Wire Wire Line
 	2450 1300 2850 1300
 Wire Wire Line
 	2950 1400 2950 1550
-Connection ~ 2950 1550
 Wire Wire Line
 	2450 1650 2450 1850
 Wire Wire Line
-	2450 1850 2650 1850
-Wire Wire Line
 	2450 1850 2150 1850
-Connection ~ 2450 1850
 $Comp
 L Relay:SANYOU_SRD_Form_C K3
 U 1 1 5F62CCBA
@@ -213,7 +200,7 @@ F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 7750 1850 50  0001 L
 F 4 "C75469" H 7750 1850 50  0001 C CNN "LCSC"
 F 5 "FDN340P" H 7750 1850 50  0001 C CNN "Mfc"
 	1    7750 1850
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R5
@@ -258,13 +245,6 @@ Wire Wire Line
 Wire Wire Line
 	7250 2300 7250 2100
 Wire Wire Line
-	7250 2100 7850 2100
-Wire Wire Line
-	7850 2100 7850 2150
-Wire Wire Line
-	7850 2050 7850 2100
-Connection ~ 7850 2100
-Wire Wire Line
 	7250 2600 7250 2800
 Wire Wire Line
 	7250 2800 7850 2800
@@ -278,19 +258,13 @@ Wire Wire Line
 Wire Wire Line
 	7750 1550 7850 1550
 Wire Wire Line
-	7850 1550 7850 1650
-Wire Wire Line
 	7350 1300 7750 1300
 Wire Wire Line
 	7850 1400 7850 1550
-Connection ~ 7850 1550
 Wire Wire Line
 	7350 1650 7350 1850
 Wire Wire Line
-	7350 1850 7550 1850
-Wire Wire Line
 	7350 1850 7050 1850
-Connection ~ 7350 1850
 $Comp
 L Relay:SANYOU_SRD_Form_C K2
 U 1 1 5F634AB0
@@ -352,7 +326,7 @@ F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 2850 4500 50  0001 L
 F 4 "C75469" H 2850 4500 50  0001 C CNN "LCSC"
 F 5 "FDN340P" H 2850 4500 50  0001 C CNN "Mfc"
 	1    2850 4500
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R4
@@ -397,13 +371,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 4950 2350 4750
 Wire Wire Line
-	2350 4750 2950 4750
-Wire Wire Line
-	2950 4750 2950 4800
-Wire Wire Line
-	2950 4700 2950 4750
-Connection ~ 2950 4750
-Wire Wire Line
 	2350 5250 2350 5450
 Wire Wire Line
 	2350 5450 2950 5450
@@ -417,19 +384,13 @@ Wire Wire Line
 Wire Wire Line
 	2850 4200 2950 4200
 Wire Wire Line
-	2950 4200 2950 4300
-Wire Wire Line
 	2450 3950 2850 3950
 Wire Wire Line
 	2950 4050 2950 4200
-Connection ~ 2950 4200
 Wire Wire Line
 	2450 4300 2450 4500
 Wire Wire Line
-	2450 4500 2650 4500
-Wire Wire Line
 	2450 4500 2150 4500
-Connection ~ 2450 4500
 $Comp
 L Relay:SANYOU_SRD_Form_C K4
 U 1 1 5F6409D1
@@ -491,7 +452,7 @@ F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 7750 4500 50  0001 L
 F 4 "C75469" H 7750 4500 50  0001 C CNN "LCSC"
 F 5 "FDN340P" H 7750 4500 50  0001 C CNN "Mfc"
 	1    7750 4500
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R6
@@ -536,13 +497,6 @@ Wire Wire Line
 Wire Wire Line
 	7250 4950 7250 4750
 Wire Wire Line
-	7250 4750 7850 4750
-Wire Wire Line
-	7850 4750 7850 4800
-Wire Wire Line
-	7850 4700 7850 4750
-Connection ~ 7850 4750
-Wire Wire Line
 	7250 5250 7250 5450
 Wire Wire Line
 	7250 5450 7850 5450
@@ -556,21 +510,15 @@ Wire Wire Line
 Wire Wire Line
 	7750 4200 7850 4200
 Wire Wire Line
-	7850 4200 7850 4300
-Wire Wire Line
 	7350 3950 7750 3950
 Wire Wire Line
 	7850 4050 7850 4200
-Connection ~ 7850 4200
 Wire Wire Line
 	7350 4300 7350 4500
 Wire Wire Line
-	7350 4500 7550 4500
-Wire Wire Line
 	7350 4500 7050 4500
-Connection ~ 7350 4500
 $Comp
-L Device:C_Polarized C3
+L Brewnode_PCB-rescue:C_Polarized-Device C3
 U 1 1 5F69DC17
 P 5850 3400
 AR Path="/5F69DC17" Ref="C3"  Part="1" 
@@ -642,4 +590,56 @@ Wire Wire Line
 	3450 2150 3450 1850
 Wire Wire Line
 	3450 1850 3850 1850
+Wire Wire Line
+	2350 2100 2950 2100
+Wire Wire Line
+	2950 2100 2950 2150
+Wire Wire Line
+	2950 2100 2950 2050
+Connection ~ 2950 2100
+Wire Wire Line
+	2450 1850 2650 1850
+Connection ~ 2450 1850
+Wire Wire Line
+	2950 1650 2950 1550
+Connection ~ 2950 1550
+Wire Wire Line
+	7250 2100 7850 2100
+Wire Wire Line
+	7850 2100 7850 2150
+Wire Wire Line
+	7850 2100 7850 2050
+Connection ~ 7850 2100
+Wire Wire Line
+	7350 1850 7550 1850
+Connection ~ 7350 1850
+Wire Wire Line
+	7850 1650 7850 1550
+Connection ~ 7850 1550
+Wire Wire Line
+	7250 4750 7850 4750
+Wire Wire Line
+	7850 4750 7850 4800
+Wire Wire Line
+	7850 4700 7850 4750
+Connection ~ 7850 4750
+Wire Wire Line
+	7350 4500 7550 4500
+Connection ~ 7350 4500
+Wire Wire Line
+	7850 4200 7850 4300
+Connection ~ 7850 4200
+Wire Wire Line
+	2350 4750 2950 4750
+Wire Wire Line
+	2950 4750 2950 4800
+Wire Wire Line
+	2950 4700 2950 4750
+Connection ~ 2950 4750
+Wire Wire Line
+	2450 4500 2650 4500
+Connection ~ 2450 4500
+Wire Wire Line
+	2950 4300 2950 4200
+Connection ~ 2950 4200
 $EndSCHEMATC

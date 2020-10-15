@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 8
 Title "BrewnodeV1"
-Date "2020-09-16"
-Rev "1.0"
+Date "2020-10-15"
+Rev "1.1"
 Comp "Halldin"
 Comment1 "Digital Sensors"
 Comment2 ""
@@ -134,7 +134,7 @@ Wire Wire Line
 	8050 3200 8050 3700
 Connection ~ 8050 3700
 $Comp
-L Device:C_Polarized C6
+L Brewnode_PCB-rescue:C_Polarized-Device C6
 U 1 1 5F679881
 P 10000 3800
 AR Path="/5F679881" Ref="C6"  Part="1" 

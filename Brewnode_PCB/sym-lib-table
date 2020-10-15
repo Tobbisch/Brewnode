@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name Brewnode_PCB-rescue)(type Legacy)(uri ${KIPRJMOD}/Brewnode_PCB-rescue.lib)(options "")(descr ""))
 )
